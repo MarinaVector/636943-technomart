@@ -13,23 +13,23 @@
 				<div class="menu-top-wrapper">
 					<a class="logo" href="#">Техномарт</a>
 					<form class="menu-top-search" action="#">
-						<input id="menu-top-search-box" name="search" type="text">
-						<label for="menu-top-search-box">Поиск:</label>
+						<input class="menu-search" id="menu-top-search-box" name="search" type="text">
+						<label class="menu-search-label" for="menu-top-search-box">Поиск:</label>
 					</form>
 					<div class="menu-bookmarks">
-						<a class="menu-bookmarks-top" href="#">Закладки:</a>
+						<a class="menu-bookmarks-link" href="#">Закладки:</a>
 					</div>
 					<div class="menu-basket">
-						<a class="menu-basket-top" href="#">Корзина: 0</a>
+						<a class="menu-basket-link" href="#">Корзина: 0</a>
 					</div>
 					<div class="menu-order">
-						<a class="menu-order-top" href="#">Оформить заказ</a>
+						<a class="menu-order-link" href="#">Оформить заказ</a>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="menu ">
+		<div class="menu">
 			<div class="container-main">
 				<div class="menu-head">
 					<h1 class="menu-head-info">Интернет-магазин строительных материалов и&nbsp;инструментов для ремонта</h1>
@@ -43,39 +43,39 @@
 						<div class="login-popup">
 							<a class="login-popup-close" href="#">✕</a>
 							<form class="login-form" action="/auth" method="post">
-								<input class="login-field" type="text " name="login " placeholder="Логин">
+								<input class="login-field" type="text" name="login" placeholder="Логин">
 								<input class="password-field" type="password" name="password" placeholder="Пароль">
 								<a class="restore" href="#">Я&nbsp;забыл пароль</a>
-								<label>
-									<input type="checkbox" name="remember">Запомните меня</label>
-								<input type="submit" value="Войти">
+								<label class="restore-password">
+									<input class="checkbox-remember" type="checkbox" name="remember">Запомните меня</label>
+								<input class="checkbox-submit" type="submit" value="Войти">
 							</form>
 						</div>
 					</div>
 				</div>
 
 				<nav class="nav-menu">
-					<ul class="navigation">
-						<li class="navigation-list">
-							<a class="navigation-list-link" href="#">Главная</a>
+					<ul class="navigation-list">
+						<li class="navigation-item">
+							<a class="navigation-item-link" href="#">Главная</a>
 						</li>
-						<li class="navigation-list">
-							<a class="navigation-list-link" href="#">Компания</a>
+						<li class="navigation-item">
+							<a class="navigation-item-link" href="#">Компания</a>
 						</li>
-						<li class="navigation-list">
-							<a class="navigation-list-link" href="catalog.html">Каталог</a>
+						<li class="navigation-item">
+							<a class="navigation-item-link" href="catalog.html">Каталог</a>
 						</li>
-						<li class="navigation-list">
-							<a class="navigation-list-link" href="#">Новости</a>
+						<li class="navigation-item">
+							<a class="navigation-item-link" href="#">Новости</a>
 						</li>
-						<li class="navigation-list">
-							<a class="navigation-list-link" href="#">Спецпредложения</a>
+						<li class="navigation-item">
+							<a class="navigation-item-link" href="#">Спецпредложения</a>
 						</li>
-						<li class="navigation-list">
-							<a class="navigation-list-link" href="#">Доставка</a>
+						<li class="navigation-item">
+							<a class="navigation-item-link" href="#">Доставка</a>
 						</li>
-						<li class="navigation-list">
-							<a class="navigation-list-link" href="#">Контакты</a>
+						<li class="navigation-item">
+							<a class="navigation-item-link" href="#">Контакты</a>
 						</li>
 					</ul>
 				</nav>
@@ -98,17 +98,16 @@
 				<a class="tech-block-link" href="#">Для стройки</a></p>
 		</section>
 		<div class="slider">
-			<ul class="slider-foto">
+			<ul class="slider-list">
 				<li class="slider-drill">
 					<img class="slyder-drill-foto" src="http://placehold.it/150x100" alt="#" width="150" height="100">
 				</li>
 				<li class="slider-perforator">
-					<img class="slyder-perforatorfoto" src="http://placehold.it/150x100" alt="#" width="150" height="100">
+					<img class="slyder-perforator-foto" src="http://placehold.it/150x100" alt="#" width="150" height="100">
 				</li>
 			</ul>
 			<section class="shop-info">
-				<p class="discounts">Скидки&nbsp;50%
-				</p>
+				<p class="discounts">Скидки 50&nbsp;%</p>
 				<p class="discounts-products">
 					<a class="discounts-goods" href="#">На&nbsp;350 товаров</a>
 				</p>
@@ -116,79 +115,65 @@
 				<p class="free">
 					<a class="free shipment" href="#">Бесплатно</a>
 				</p>
-
 			</section>
+
 			<section class="goods-popular">
-				<ul class="goods-popular-items">
-					<li class="goods-popular-list">
-						<img class="goods-popular-image" src="http://placehold.it/150x100" alt="#" width="150" height="100">
+				<ul class="goods-popular-list">
+					<li class="goods-popular-items">
+						<img class="goods-image" src="http://placehold.it/150x100" alt="#" width="150" height="100">
 						<a class="goods-popular-perforator" href="#">Перфоратор BOSH BFG 9000</a>
 						<del class="old-price">32500</del>
 						<ins class="new-price">25500</ins>
-						<div class="image"><img src="img/good1.jpg">
-						</div>
+
 						<div class="actions">
 							<a class="buy" href="#">Купить</a>
 							<a class="bookmark" href="#">В&nbsp;закладки</a>
 						</div>
 					</li>
-					<li class="goods-popular-list">
-						<img class="goods-popular-image" src="http://placehold.it/150x100" alt="#" width="150" height="100">
+					<li class="goods-popular-items">
+						<img class="goods-image" src="http://placehold.it/150x100" alt="#" width="150" height="100">
 						<a class="goods-popular-perforator" href="#">Перфоратор BOSH BFG 3000</a>
 						<del class="old-price">22500</del>
 						<ins class="new-price">15500</ins>
-						<div class="image"><img src="img/good2.jpg ">
-						</div>
 					</li>
-					<li class="goods-popular-list">
-						<img class="goods-popular-image" src="http://placehold.it/150x100" alt="#" width="150" height="100">
-						<a class="goods-popular-perforator " href="# ">Перфоратор BOSH BFG 6000</a>
+					<li class="goods-popular-items">
+						<img class="goods-image" src="http://placehold.it/150x100" alt="#" width="150" height="100">
+						<a class="goods-popular-perforator" href="#">Перфоратор BOSH BFG 6000</a>
 						<del class="old-price ">30500</del>
 						<ins class="new-price ">25500</ins>
-						<div class="image "><img src="img/good2.jpg ">
-						</div>
 					</li>
-					<li class="goods-popular-list">
-						<img class="goods-popular-image" src="http://placehold.it/150x100" alt="#" width="150" height="100">
-						<a class="goods-popular-perforator " href="# ">Перфоратор BOSH BFG 2000</a>
-						<ins class="price ">12500</ins>
-						<div class="image "><img src="img/good2.jpg ">
-						</div>
+					<li class="goods-popular-items">
+						<img class="goods--image" src="http://placehold.it/150x100" alt="#" width="150" height="100">
+						<a class="goods-popular-perforator" href="#">Перфоратор BOSH BFG 2000</a>
+						<ins class="price">12500</ins>
 					</li>
 				</ul>
 			</section>
 
 			<section class="brands">
 				<p class="brands-popular">Популярные производители:</p>
-				<a class="brands-list" href="# ">Все производители</a>
-				<ul class="brands-item">
+				<a class="brands-list-link" href="#">Все производители</a>
+				<ul class="brands-list">
 					<li class="brands-item-logo">
 						<img class="brands-item-logo-image" src="http://placehold.it/150x100" alt="#" width="150" height="100">
-						<img class="makita" src="logo/makita.jpg">
 					</li>
 					<li class="brands-item-logo">
 						<img class="brands-item-logo-image" src="http://placehold.it/150x100" alt="#" width="150" height="100">
-						<img class="bosh" src="logo/bosh.jpg">
 					</li>
 					<li class="brands-item-logo">
 						<img class="brands-item-logo-image" src="http://placehold.it/150x100" alt="#" width="150" height="100">
-						<img class="devalt" src="logo/devalt.jpg">
 					</li>
 					<li class="brands-item-logo">
 						<img class="brands-item-logo-image" src="http://placehold.it/150x100" alt="#" width="150" height="100">
-						<img class="interskol" src="logo/interskol.jpg">
 					</li>
 					<li class="brands-item-logo">
 						<img class="brands-item-logo-image" src="http://placehold.it/150x100" alt="#" width="150" height="100">
-						<img class="lg" src="logo/lg.jpg">
 					</li>
 					<li class="brands-item-logo">
 						<img class="brands-item-logo-image" src="http://placehold.it/150x100" alt="#" width="150" height="100">
-						<img class="aeg" src="logo/aeg.jpg">
 					</li>
 					<li class="brands-item-logo">
 						<img class="brands-item-logo-image" src="http://placehold.it/150x100" alt="#" width="150" height="100">
-						<img class="metabo" src="logo/metabo.jpg">
 					</li>
 				</ul>
 			</section>
@@ -198,7 +183,7 @@
 				<p class="services-about-description">Хороший магазин отличается от&nbsp;плохого не&nbsp;только ценами! Мы&nbsp;стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
 				<ul class="services-list">
 					<li class="services-item">
-						<a class="services-item-link" href="# ">Доставка</a>
+						<a class="services-item-link" href="#">Доставка</a>
 					</li>
 					<li class="services-item">
 						<a class="services-item-link" href="#">Гарантия</a>
@@ -214,32 +199,30 @@
 				<p class="company-tehnomart-description">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и&nbsp;строительства не&nbsp;оставит равнодушным любителей сэкономить на&nbsp;гастарбайтерах.</p>
 				<p class="company-tehnomart-description">Мы&nbsp;можем доставить ваш товар в&nbsp;самые отдаленные точки России! Техномарт работает со&nbsp;многими транспортными компаниями:</p>
 				<ul class="company-delivery">
-					<li class="company-delivery">
-						<a class="company-delivery-active" href="#">Деловые линии</a>
+					<li class="company-delivery-item">
+						<a class="company-delivery-link" href="#">Деловые линии</a>
 					</li>
-					<li class="company-delivery">
-						<a class="company-delivery-active" href="#">Автотрейдинг</a>
+					<li class="company-delivery-item">
+						<a class="company-delivery-link" href="#">Автотрейдинг</a>
 					</li>
-					<li class="company-delivery">
-						<a class="company-delivery-active" href="#">Желдорэкспедиция</a>
+					<li class="company-delivery-item">
+						<a class="company-delivery-link" href="#">Желдорэкспедиция</a>
 					</li>
 				</ul>
 				<a class="details" href="# ">Подробнее о&nbsp;компании</a>
 				<h2 class="contacts-title">Контакты</h2>
 				<p class="delivery-conditions">Вы&nbsp;можете забрать товар сами, заехав в&nbsp;наш офис:</p>
-				<a class="map" href="#"><img src="map.jpg" alt=" ">
-				</a>
 				<img class="map" src="http://placehold.it/150x100" alt="#" width="150" height="100">
 				<a class="post" href="#">Заблудились? Напишите нам!</a>
 				<form action="/echo" method="post">
-					<label for="name">Ваше имя:</label>
-					<input type="text" id="name" name="name" value="Представьтесь пожалуйста">
-					<label for="e-mail">Ваш e-mail:</label>
-					<input type="e-mail " id="e-mail" name="e-mail" value="Для отправки ответа">
-					<label>
-						<label for="letter">Текст письма:</label>
-						<textarea name="letter" id="letter-field" rows="5">В&nbsp;свободной форме</textarea>
-						<input type="submit" value="Отправить">
+					<label class="form-name" for="name">Ваше имя:</label>
+					<input class="form-name-label" type="text" id="name" name="name" value="Представьтесь пожалуйста">
+					<label class="form-e-mail" for="e-mail">Ваш e-mail:</label>
+					<input class="answer-e-mail" type="e-mail" id="e-mail" name="e-mail" value="Для отправки ответа">
+					<label class="letter">
+						<label class="letter-text" for="letter">Текст письма:</label>
+						<textarea class="letter-text-field" name="letter" id="letter-field" rows="5">В&nbsp;свободной форме</textarea>
+						<input class="submit-input" type="submit" value="Отправить">
 					</label>
 				</form>
 			</section>
@@ -255,22 +238,22 @@
 						<p class="address">г. Санкт-Петербург, ул. Б.Конюшенная, д. 19/8, +7 (812) 555-05-55</p>
 					</div>
 
-					<div class="foot">
-						<ul class="foot-nav">
-							<li class="foot-nav-menu">
-								<a class="foot-nav-menu-link" href="#">Компания</a>
+					<div class="footer-nav">
+						<ul class="footer-list">
+							<li class="footer-item">
+								<a class="footer-item-link" href="#">Компания</a>
 							</li>
-							<li class="foot-nav-menu">
-								<a class="foot-nav-menu-link" href="#">Новости</a>
+							<li class="footer-item">
+								<a class="footer-item-link" href="#">Новости</a>
 							</li>
-							<li class="footer-menu-site-nav">
-								<a class=" footer-menu-link " href="catalog.html ">Каталог</a>
+							<li class="footer-item">
+								<a class=" footer-item-link" href="catalog.html">Каталог</a>
 							</li>
-							<li class="foot-nav-menu">
-								<a class="foot-nav-menu-link" href="#shipping ">Доставка</a>
+							<li class="footer-item">
+								<a class="footer-item-link" href="#shipping">Доставка</a>
 							</li>
-							<li class="foot-nav-menu">
-								<a class="foot-nav-menu-link" href="#contacts ">Контакты</a>
+							<li class="footer-item">
+								<a class="footer-item-link" href="#contacts">Контакты</a>
 							</li>
 						</ul>
 						<ul class="footer-shop">
@@ -284,7 +267,7 @@
 								<a class="footer-shop-info" href="catalog.html">Инструмент</a>
 							</li>
 							<li class="footer-shop-goods">
-								<a class="footer-shop-info" href="catalog.htm ">Спецпредложения</a>
+								<a class="footer-shop-info" href="catalog.htm">Спецпредложения</a>
 							</li>
 						</ul>
 					</div>
@@ -292,20 +275,19 @@
 			</div>
 		</div>
 
-
 		<footeer class="page-footer">
-			<p class="copyright-company ">&copy;&nbsp;2010&ndash;2017 Компания &laquo;Техномарт Все права защищены&raquo;
+			<p class="copyright-company ">&copy;&nbsp;2010-2017 Компания &laquo;Техномарт&raquo; Все права защищены
 			</p>
 			<div class="social">
-				<a class="social-button-vk" href="http://vk.com ">Вконтакте</a>
-				<a class="social-button-fb" href="http://facebook.com ">Facebook</a>
-				<a class="btn-button-inst" href="http://instagram.com ">Instagram</a>
+				<a class="social-button-vk" href="http://vk.com">Вконтакте</a>
+				<a class="social-button-fb" href="http://facebook.com">Facebook</a>
+				<a class="btn-button-inst" href="http://instagram.com">Instagram</a>
 			</div>
 			<p class="feedback">Обратная связь:
-				<a class="e-mail" href="#">mail@htmlacademy.ru</a>
+				<a class="e-mail" href="https://htmlacademy.ru/contacts">mail@htmlacademy.ru</a>
 			</p>
 			<p class="design-copyright">Разработано:
-				<a class="design " href="#">htmlacademy.ru</a>
+				<a class="design" href="https://htmlacademy.ru">htmlacademy.ru</a>
 			</p>
 		</footeer>
 	</footer>
