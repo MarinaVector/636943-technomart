@@ -216,74 +216,84 @@
     </section>
 
     <section class="company">
-      <h2 class="company-tehnomart">Компания Техномарт</h2>
-      <p class="company-tehnomart-description">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и&nbsp;строительства не&nbsp;оставит равнодушным любителей сэкономить на&nbsp;гастарбайтерах.</p>
-      <p class="company-tehnomart-description">Мы&nbsp;можем доставить ваш товар в&nbsp;самые отдаленные точки России! Техномарт работает со&nbsp;многими транспортными компаниями:</p>
-      <ul class="company-delivery">
-        <li class="company-delivery-item">
-          <a class="company-delivery-link" href="#">Деловые линии</a>
-        </li>
-        <li class="company-delivery-item">
-          <a class="company-delivery-link" href="#">Автотрейдинг</a>
-        </li>
-        <li class="company-delivery-item">
-          <a class="company-delivery-link" href="#">Желдорэкспедиция</a>
-        </li>
-      </ul>
-      <a class="details" href="#">Подробнее о&nbsp;компании</a>
-      <h2 class="contacts-title">Контакты</h2>
-      <p class="delivery-conditions">Вы&nbsp;можете забрать товар сами, заехав в&nbsp;наш офис:</p>
-      <img class="map" src="http://placehold.it/150x100" alt="#" width="150" height="100">
-      <a class="post" href="#">Заблудились? Напишите нам!</a>
-      <form action="/echo" method="post">
-        <label class="form-name-label" for="name">Ваше имя:</label>
-        <input class="form-name-control" type="text" id="name" name="name" value="Представьтесь пожалуйста">
-        <label class="form-email-label" for="email">Ваш e-mail:</label>
-        <input class="answer-email-control" type="email" id="email" name="email" value="Для отправки ответа">
-        <textarea class="letter-text-field" name="letter" id="letter-field" rows="5">В&nbsp;свободной форме</textarea>
-        <input class="submit-input-control" type="submit" value="Отправить">
-      </form>
+      <div class="company-info">
+        <h2 class="company-tehnomart">Компания "Техномарт"</h2>
+        <p class="company-tehnomart-description">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и&nbsp;строительства не&nbsp;оставит равнодушным любителей сэкономить на&nbsp;гастарбайтерах.</p>
+        <p class="company-tehnomart-description">Мы&nbsp;можем доставить ваш товар в&nbsp;самые отдаленные точки России! Техномарт работает со&nbsp;многими транспортными компаниями:</p>
+        <ul class="company-delivery">
+          <li class="company-delivery-item">
+            <a class="company-delivery-link" href="#">Деловые линии</a>
+          </li>
+          <li class="company-delivery-item">
+            <a class="company-delivery-link" href="#">Автотрейдинг</a>
+          </li>
+          <li class="company-delivery-item">
+            <a class="company-delivery-link" href="#">Желдорэкспедиция</a>
+          </li>
+        </ul>
+        <a class="details" href="#">Подробнее о&nbsp;компании</a>
+      </div>
+      <div class="company-contacts">
+        <h2 class="contacts-title">Контакты</h2>
+        <p class="delivery-conditions">Вы&nbsp;можете забрать товар сами, заехав в&nbsp;наш офис:</p>
+        <img class="map" src="http://placehold.it/150x100" alt="#" width="150" height="100">
+        <a class="post" href="#">Заблудились? Напишите нам!</a>
+        <form action="/echo" method="post">
+          <label class="form-name-label" for="name">Ваше имя:</label>
+          <input class="form-name-control" type="text" id="name" name="name" value="Представьтесь пожалуйста">
+          <label class="form-email-label" for="email">Ваш e-mail:</label>
+          <input class="answer-email-control" type="email" id="email" name="email" value="Для отправки ответа">
+          <textarea class="letter-text-field" name="letter" id="letter-field" rows="5">В&nbsp;свободной форме</textarea>
+          <input class="submit-input-control" type="submit" value="Отправить">
+        </form>
+      </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="contacts">
-      <a class="logo-button">Техномарт</a>
-      <p class="address">г. Санкт-Петербург, ул. Б.Конюшенная, д. 19/8, +7 (812) 555-05-55</p>
-    </div>
-
     <nav class="nav-footer">
-      <ul class="navigation-footer-list">
-        <li class="navigation-footer-item">
-          <a class="navigation-footer-item-link" href="#">Компания</a>
-        </li>
-        <li class="navigation-footer-item">
-          <a class="navigation-footer-item-link" href="#">Новости</a>
-        </li>
-        <li class="navigation-footer-item">
-          <a class="navigation-footer-item-link" href="catalog.html">Каталог</a>
-        </li>
-        <li class="navigation-footer-item">
-          <a class="navigation-footer-item-link" href="#">Доставка</a>
-        </li>
-        <li class="navigation-footer-item">
-          <a class="navigation-footer-item-link" href="#">Контакты</a>
-        </li>
-      </ul>
-      <ul class="footer-shop-list">
-        <li class="footer-shop-item">
-          <a class="footer-shop-link" href="#">Материалы</a>
-        </li>
-        <li class="footer-shop-item">
-          <a class="footer-shop-link" href="#">Техника</a>
-        </li>
-        <li class="footer-shop-item">
-          <a class="footer-shop-link" href="#">Инструмент</a>
-        </li>
-        <li class="footer-shop-item">
-          <a class="footer-shop-link" href="#">Спецпредложения</a>
-        </li>
-      </ul>
+      <div class="navigation-basic">
+        <div class="logo">
+          <a class="logo-button">Техномарт</a>
+        </div>
+        <ul class="navigation-footer-list">
+          <li class="navigation-footer-item">
+            <a class="navigation-footer-item-link" href="#">Компания</a>
+          </li>
+          <li class="navigation-footer-item">
+            <a class="navigation-footer-item-link" href="#">Новости</a>
+          </li>
+          <li class="navigation-footer-item">
+            <a class="navigation-footer-item-link" href="catalog.html">Каталог</a>
+          </li>
+          <li class="navigation-footer-item">
+            <a class="navigation-footer-item-link" href="#">Доставка</a>
+          </li>
+          <li class="navigation-footer-item">
+            <a class="navigation-footer-item-link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-menu">
+        <div class="contacts">
+          <p class="address">г. Санкт-Петербург, ул. Б.Конюшенная, д. 19/8, +7 (812) 555-05-55</p>
+        </div>
+        <ul class="footer-shop-list">
+          <li class="footer-shop-item">
+            <a class="footer-shop-link" href="#">Материалы</a>
+          </li>
+          <li class="footer-shop-item">
+            <a class="footer-shop-link" href="#">Техника</a>
+          </li>
+          <li class="footer-shop-item">
+            <a class="footer-shop-link" href="#">Инструмент</a>
+          </li>
+          <li class="footer-shop-item">
+            <a class="footer-shop-link" href="#">Спецпредложения</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <section class="footer-bottom">
