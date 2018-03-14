@@ -357,21 +357,25 @@
   </main>
 
   <section class="letter-popup visually-hidden">
-    <button class="close-button-wrapper">✕</button>
+    <button class="cart-popup-close">✕</button>
     <form class="write-us-form" action="#" method="post">
       <label class="form-name-label" for="name">Ваше имя:</label>
-      <input class="form-name-control" type="text" id="name" name="name" value="Представьтесь пожалуйста">
-      <label class="form-email-label" for="email">Ваш e-mail:</label>
-      <input class="answer-email-control" type="email" id="email" name="email" value="Для отправки ответа">
+      <input class="form-name-control" type="text" id="name" name="name" placeholder="Представьтесь пожалуйста">
+      <label class="form-email-label">Ваш e-mail:</label>
+      <input class="answer-email-control" type="email" id="email" name="email" placeholder="Для отправки ответа">
       <label class="letter-text-label" for="email">Текст письма:</label>
-      <textarea class="letter-text-field" name="letter" id="letter-field" rows="5">В&nbsp;свободной форме</textarea>
-      <input class="submit-input-control" type="submit" value="Отправить">
+      <textarea class="letter-text-field" name="letter" id="letter-field" placeholder="В&nbsp;свободной форме"></textarea>
+      <button class="submit-button-control">Отправить</button>
     </form>
   </section>
 
-  <div class="map-popup visually-hidden">
-    <img class="map-popup-large" src="img/map-popup.jpg" alt="Карта" width="940" height="446">
-  </div>
+
+  <section class="map-popup visually-hidden">
+    <img src="img/map-popup.jpg" alt="Интернет-магазин по адресу: г.Санкт-Петербург, ул. Большая Конюшенная, дом 19." width="940" height="446">
+    <button type="button">✕</button>
+  </section>
+
+
 
 </body>
 
