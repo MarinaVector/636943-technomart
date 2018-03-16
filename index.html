@@ -357,7 +357,6 @@
   </main>
 
   <section class="letter-popup visually-hidden">
-    <button class="cart-popup-close">✕</button>
     <form class="write-us-form" action="#" method="post">
       <label class="form-name-label" for="name">Ваше имя:</label>
       <input class="form-name-control" type="text" id="name" name="name" placeholder="Представьтесь пожалуйста">
@@ -365,16 +364,20 @@
       <input class="answer-email-control" type="email" id="email" name="email" placeholder="Для отправки ответа">
       <label class="letter-text-label" for="email">Текст письма:</label>
       <textarea class="letter-text-field" name="letter" id="letter-field" placeholder="В&nbsp;свободной форме"></textarea>
-      <button class="submit-button-control">Отправить</button>
+      <button class="submit-button-control" type="submit">Отправить</button>
     </form>
   </section>
 
 
   <section class="map-popup visually-hidden">
-    <img src="img/map-popup.jpg" alt="Интернет-магазин по адресу: г.Санкт-Петербург, ул. Большая Конюшенная, дом 19." width="940" height="446">
-    <button type="button">✕</button>
-  </section>
+    <form id="map-popup">
+      <img src="img/map-popup.jpg" alt="Интернет-магазин по адресу: г.Санкт-Петербург, ул. Большая Конюшенная, дом 19." width="940" height="446">
+    </form>
+    <p>
+      <button name="close" type="submit" form="map-popup">✕</button>
+    </p>
 
+  </section>
 
 
 </body>
