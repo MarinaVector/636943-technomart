@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
-
+  
 <head>
   <meta charset="utf-8">
   <title>HTML&nbsp;Academy: Техномарт</title>
-</head>
+     <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+    </head>
 
-<body>
+<body class="page">
   <header class="page-header">
     <div class="menu-top">
       <div class="container-head">
@@ -28,7 +30,7 @@
         </div>
       </div>
     </div>
-
+ 
     <div class="menu">
       <div class="container-main">
         <div class="menu-head">
@@ -38,22 +40,10 @@
             <p class="head-contact-address">г.Санкт-Петербург, ул. Б.Конюшенная, д.19/8</p>
           </div>
           <div class="menu-head-account">
-            <a class="login" href="#">Войти</a>
+            <a class="login " href="#">Войти</a>
             <a class="registration" href="#">Регистрация</a>
-            <div class="login-popup">
-              <a class="login-popup-close" href="#">✕</a>
-              <form class="login-form" action="/auth" method="post">
-                <input class="login-field" type="text" name="login" placeholder="Логин">
-                <input class="password-field" type="password" name="password" placeholder="Пароль">
-                <a class="restore" href="#">Я&nbsp;забыл пароль</a>
-                <label class="restore-password-label">
-                  <input class="checkbox-remember" type="checkbox" name="remember">Запомните меня
-                </label>
-                <input class="checkbox-submit-control" type="submit" value="Войти">
-              </form>
-            </div>
-          </div>
-        </div>
+        
+            <div class="navigation">    
         <nav class="nav-menu">
           <ul class="navigation-list">
             <li class="navigation-item">
@@ -63,13 +53,13 @@
               <a class="navigation-item-link" href="#">Компания</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-item-link" href="catalog.html">Каталог</a>
+              <a class="navigation-item-link"    href="catalog.html">Каталог</a>
             </li>
             <li class="navigation-item">
               <a class="navigation-item-link" href="#">Новости</a>
             </li>
-            <li class="navigation-item">
-              <a class="navigation-item-link" href="#">Спецпредложения</a>
+             <li class="navigation-item">
+            <a class="navigation-item" href="#">Спецпредложения</a>  
             </li>
             <li class="navigation-item">
               <a class="navigation-item-link" href="#">Доставка</a>
@@ -78,7 +68,10 @@
               <a class="navigation-item-link" href="#">Контакты</a>
             </li>
           </ul>
-        </nav>
+           </nav>
+         </div>
+      </div>
+    </div>
       </div>
     </div>
   </header>
@@ -88,19 +81,19 @@
       <div class="feature feature-materials">
         <h2 class="materials">Материалы</h2>
         <p class="materials-block">
-          <a class="materials-block-link" href="#">На&nbsp;любой вкус</a>
+          <a class="materials-block-link " href="#">На&nbsp;любой вкус</a>
         </p>
       </div>
       <div class="feature feature-tooling">
         <h2 class="tooling">Инструменты</h2>
         <p class="tooling-block">
-          <a class="tooling-block-link" href="#">На&nbsp;все случаи</a>
+          <a class="tooling-block-link " href="#">На&nbsp;все случаи</a>
         </p>
       </div>
       <div class="feature feature-tech">
         <h2 class="tech">Техника</h2>
         <p class="tech-block">
-          <a class="tech-block-link" href="#">Для стройки</a>
+          <a class="tech-block-link " href="#">Для стройки</a>
         </p>
       </div>
     </section>
@@ -135,29 +128,29 @@
     <section class="goods">
       <header class="goods-popular">
         <h2 class="goods-popular-title">Популярные товары</h2>
-        <a class="goods-popular-link" href="#">Все популярные товары</a>
+        <a class="goods-popular-link " href="#">Все популярные товары</a>
       </header>
       <ul class="goods-list">
         <li class="goods-item">
           <img class="goods-image" src="img/boschbfg9000.jpg" alt="Бош БФГ" width="218" height="140">
-          <a class="goods-perforator" href="#">Перфоратор BOSH BFG 9000</a>
+          <a class="goods-perforator " href="#">Перфоратор BOSH BFG 9000</a>
           <del class="old-price">32500</del>
           <ins class="new-price">25500</ins>
 
           <div class="actions">
-            <a class="buy" href="#">Купить</a>
-            <a class="bookmark" href="#">В&nbsp;закладки</a>
+            <a class="buy " href="#">Купить</a>
+            <a class="bookmark " href="#">В&nbsp;закладки</a>
           </div>
         </li>
         <li class="goods-item">
           <img class="goods-image" src="img/boschbfg2000-3000.jpg" alt="Бош БФГ" width="218" height="140">
-          <a class="goods-perforator" href="#">Перфоратор BOSH BFG 3000</a>
+          <a class="goods-perforator " href="#">Перфоратор BOSH BFG 3000</a>
           <del class="old-price">22500</del>
           <ins class="new-price">15500</ins>
 
           <div class="actions">
-            <a class="buy" href="#">Купить</a>
-            <a class="bookmark" href="#">В&nbsp;закладки</a>
+            <a class="buy " href="#">Купить</a>
+            <a class="bookmark " href="#">В&nbsp;закладки</a>
           </div>
         </li>
         <li class="goods-item">
@@ -168,7 +161,7 @@
 
           <div class="actions">
             <a class="buy" href="#">Купить</a>
-            <a class="bookmark" href="#">В&nbsp;закладки</a>
+            <a class="bookmark " href="#">В&nbsp;закладки</a>
           </div>
         </li>
         <li class="goods-item">
@@ -187,7 +180,7 @@
     <section class="brands">
       <header class="brands-popular">
         <h2 class="brands-popular-title">Популярные производители:</h2>
-        <a class="brands-list-link" href="#">Все производители</a>
+        <a class="brands-list-link  " href="#">Все производители</a>
       </header>
       <ul class="brands-list">
         <li class="brands-item-logo">
@@ -279,7 +272,7 @@
             <a class="company-delivery-link" href="#">Желдорэкспедиция</a>
           </li>
         </ul>
-        <a class="details" href="#">Подробнее о&nbsp;компании</a>
+        <a class="details " href="#">Подробнее о&nbsp;компании</a>
       </div>
       <div class="company-contacts">
         <h2 class="contacts-title">Контакты</h2>
@@ -288,7 +281,7 @@
           <img class="map-min" src="img/map-min.jpg" alt="Карта" width="300" height="158">
         </div>
         <div class="post">
-          <a class="post-feedback" href="#">Заблудились? Напишите нам!</a>
+          <a class="post-feedback " href="#">Заблудились? Напишите нам!</a>
         </div>
       </div>
     </section>
@@ -296,8 +289,9 @@
       <nav class="nav-footer">
         <div class="navigation-basic">
           <div class="logo">
-            <a class="logo-button">Техномарт</a>
+            <a class="logo-button ">Техномарт</a>
           </div>
+          <div class="navigation">   
           <ul class="navigation-footer-list">
             <li class="navigation-footer-item">
               <a class="navigation-footer-item-link" href="#">Компания</a>
@@ -315,12 +309,13 @@
               <a class="navigation-footer-item-link" href="#">Контакты</a>
             </li>
           </ul>
+          </div>
         </div>
 
         <div class="footer-menu">
           <div class="footer-contacts">
             <p class="footer-contacts-address">г. Санкт-Петербург, ул. Б.Конюшенная, д. 19/8</p>
-            <a class="footer-contacts-phone" href="tel:+7(812)555-05-55">+7(812)555-05-55</a>
+            <a class="footer-contacts-phone " href="tel:+7(812)555-05-55">+7(812)555-05-55</a>
           </div>
           <ul class="footer-shop-list">
             <li class="footer-shop-item">
@@ -347,10 +342,10 @@
           <a class="social-button social-button-inst" href="http://instagram.com">Instagram</a>
         </div>
         <p class="feedback">Обратная связь:
-          <a class="feedback-mail" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+          <a class="feedback-mail " href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
         </p>
         <p class="copyright">Разработано —
-          <a class="copyright-link" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
+          <a class="copyright-link " href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
         </p>
       </section>
     </footer>
