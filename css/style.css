@@ -1,57 +1,65 @@
-﻿@font-face {
+﻿@font-face 
+{
     font-weight: 700;
-    font-style: normal;
-    font-family: 'cuprumbold';
-    src: url('css/fonts/cuprumbold.woff2') format('woff2'),
-         url('css/fonts/cuprumbold.woff') format('woff');
+  font-style: bold;
+        font-family: 'cuprumbold';
+    src: url('/fonts/cuprumbold.woff2') format('woff2'),
+         url('/fonts/cuprumbold.woff') format('woff');
 }
 
 
-@font-face {
+@font-face
+{
     font-weight: 400;
-    font-style: normal;
-    font-family: 'cuprumitalic';
-    src: url('css/fonts/cuprumitalic.woff2') format('woff2'),
+  font-style: normal;
+        font-family: 'cuprumitalic';
+    src: url('/fonts/cuprumitalic.woff2') format('woff2'),
          url('/fonts/cuprumtalic.woff') format('woff');
 }
 
 
-@font-face {
+@font-face 
+{
     font-weight: 400;
-    font-style: normal;
-    font-family: 'cuprumregular';
-    src: url('\css\fonts\cuprumregular.woff2') format('woff2'),
-         url('\css\fonts\cuprumregular.woff') format('woff');
+  font-style: normal;
+        font-family: font-style: normal;'cuprumregular';
+    src: url('/fonts/cuprumregular.woff2') format('woff2'),
+         url('/fonts/cuprumregular.woff') format('woff');
 }
 
-@font-face {
+@font-face 
+{
     font-weight: 400;
-    font-style: normal;
-    font-family: 'ptsans';
-    src: url('fonts/ptsans.woff2') format('woff2'),
-         url('fonts/ptsans.woff') format('woff');
+        font-family: 'ptsans';
+  font-style: normal;
+    src: url('/fonts/ptsans.woff2') format('woff2'),
+         url('/fonts/ptsans.woff') format('woff');
 }
 
-@font-face {
+@font-face 
+{
     font-weight: 400;
-    font-style: normal;
-    font-family: 'ptsans';
-    src: url('fonts/ptsansbold.woff2') format('woff2'),
-         url('fonts/ptsansbold.woff') format('woff');
+       font-family: 'ptsans';
+  font-style: bold;
+    src: url('/fonts/ptsansbold.woff2') format('woff2'),
+         url('/fonts/ptsansbold.woff') format('woff');
 }
 
 
-
-.page {
+.page
+{
   margin: 0; 
   padding: 0;
-  background-color: white;
-  background-position: top center;
+  
+  
   color: black;
-    font-weight: 400;
+  line-height: 1.333;
   font-size: 18px;
   font-family: "cuprumregular", Arial, sans-serif;
   line-height: 24px;
+    
+  background-color: white;
+  background-position: top center;
 }
 
 
@@ -62,27 +70,189 @@
 }
 
 
-a {
-  color: white;
-  list-style: none;
-  text-decoration: none;
+a 
+{
+  color: black;
+   text-decoration: none;
 }
 
-ul {
+ul 
+{
   list-style: none;
 }
+
+.container-head .menu-top-wrapper
+{
+  color: white;
+  font-size: 17px;
+  line-height: 18px;
+  background-color: #32425c;
+    
+}
+.container-head .menu-top-wrapper a
+{
+  color: white;
+    
+}
+
+.menu-top-wrapper .logo-button
+{
+  color: white;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  background-color: #ee3643;
+    
+}
+
+.menu-top-wrapper .menu-order
+{
+     background-color: #63a63e;
+    
+}
+
+.menu-head-info
+{
+  
+  font-size: 16px;
+    color: rgb(238, 54, 67);
+  font-style: italic;
+   text-align: left;
+ 
+ 
+ }
+.menu
+
+{
+      background-color: #f3f7f9;
+  }
+
+
+
+
+.head-contact-phone 
+{
+  font-size: 21px;
+    color: rgb(238, 54, 67);
+  line-height: 1;
+  }
+
+
+.head-contact-address
+{
+  font-size: 14px;
+    color: rgb(50, 66, 92);
+  line-height: 1.714;
+   
+  }
+
+.menu-head-account
+{
+  font-size: 21px;
+   color: black;
+  line-height: 1;
+  }
+
+.login, .registration
+{
+  background-color: white;
+
+}
+ 
+.materials, .tooling, .tech, .discounts, .shipment
+{
+  font-size: 24px;
+    color: white;
+  font-weight: bold;
+  line-height: 1.25;
+ }
+
+
+.materials-block-link, .tooling-block-link, .tech-block-link, .discounts-goods, .free-shipment
+{
+  font-size: 14px;
+    color: white;
+  line-height: 18 px;
+     text-align: center;
+  text-transform: uppercase;
+  }
+
+ 
+.materials, .shipment
+{
+background-color: #ffbf47;
+  }
+
+.tooling
+{
+background-color: #3bbce3;
+  }
+
+.tech
+{
+background-color: #dc91d8;
+  }
+
+
+.discounts
+{
+background-color: #8ed78f;
+  }
+
+
+.materials-block-link, .free-shipment
+{
+background-color: #e5ac40;
+  }
+
+.tooling-block-link
+{
+background-color: #35a9cc;
+  }
+
+.tech-block-link
+{
+background-color: #c682c2;
+  }
+
+.discounts-goods
+{
+background-color: #80c180;
+  }
+
+
+
+
+
+
+
+
+
+
+
 
 .navigation 
+ {
+  font-size: 17px;
+      line-height: 1;
+     background-color: #32425c;
+  
+}
+
+.navigation .navigation-item-link,
+.navigation .navigation-footer-item-link
+ {
+      color: white;
+    
+}
+
+
+.navigation a:hover,
+.navigation a:focus,
+
 {
   background-color: #32425c;
 }
 
-.navigation-footer-list
-{
-  color: white;
-}
 
 
-.navigation-flist
-{
-}
