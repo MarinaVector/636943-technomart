@@ -1,49 +1,55 @@
-﻿@font-face 
-{
-    font-weight: 700;
-  font-style: bold;
-        font-family: 'cuprumbold';
-    src: url('/fonts/cuprumbold.woff2') format('woff2'),
-         url('/fonts/cuprumbold.woff') format('woff');
+﻿@font-face {
+  font-family: 'cuprum';
+src: url(fonts/cuprum.woff2) format('woff2'),
+         url(fonts/cuprum.woff) format('woff');
+font-weight: 400;
+font-style: normal;
+
 }
+  
 
-
-@font-face
-{
-    font-weight: 400;
+@font-face {
+   font-family: 'cuprum';
+  src: url(fonts/cuprumbold.woff2) format('woff2'),
+         url(fonts/cuprumbold.woff) format('woff');
+  font-weight: 700;
   font-style: normal;
-        font-family: 'cuprumitalic';
-    src: url('/fonts/cuprumitalic.woff2') format('woff2'),
-         url('/fonts/cuprumtalic.woff') format('woff');
+ 
 }
 
 
-@font-face 
-{
-    font-weight: 400;
-  font-style: normal;
-        font-family: font-style: normal;'cuprumregular';
-    src: url('/fonts/cuprumregular.woff2') format('woff2'),
-         url('/fonts/cuprumregular.woff') format('woff');
+@font-face{
+  font-family: 'cuprum';
+    src: url(fonts/cuprumitalic.woff2) format('woff2'),
+         url(fonts/cuprumtalic.woff) format('woff');
+
+font-weight: 400;
+  font-style: italic;
+        
 }
 
-@font-face 
-{
-    font-weight: 400;
+
+
+@font-face {
+    
         font-family: 'ptsans';
+      src: url(fonts/ptsans.woff2) format('woff2'),
+         url(fonts/ptsans.woff) format('woff');
+  font-weight: 400;
   font-style: normal;
-    src: url('/fonts/ptsans.woff2') format('woff2'),
-         url('/fonts/ptsans.woff') format('woff');
 }
 
 @font-face 
 {
-    font-weight: 400;
+    
        font-family: 'ptsans';
+      src: url(fonts/ptsansbold.woff2) format('woff2'),
+         url(fonts/ptsansbold.woff) format('woff');
+  font-weight: 400;
   font-style: bold;
-    src: url('/fonts/ptsansbold.woff2') format('woff2'),
-         url('/fonts/ptsansbold.woff') format('woff');
 }
+
+
 
 
 .page
@@ -52,11 +58,11 @@
   padding: 0;
   
   
+    
+  font-family: 'cuprum', sans-serif;
+    font-size: 23px;
+  line-height: 23px;
   color: black;
-  line-height: 1.333;
-  font-size: 18px;
-  font-family: "cuprumregular", Arial, sans-serif;
-  line-height: 24px;
     
   background-color: white;
   background-position: top center;
@@ -84,8 +90,7 @@ ul
 .container-head .menu-top-wrapper
 {
   color: white;
-  font-size: 17px;
-  line-height: 18px;
+   line-height: 24px;
   background-color: #32425c;
     
 }
@@ -98,8 +103,8 @@ ul
 .menu-top-wrapper .logo-button
 {
   color: white;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 32px;
+  line-height: 32px;
   text-transform: uppercase;
   background-color: #ee3643;
     
@@ -126,7 +131,6 @@ ul
 {
       background-color: #f3f7f9;
   }
-
 
 
 
@@ -221,16 +225,6 @@ background-color: #80c180;
   }
 
 
-
-
-
-
-
-
-
-
-
-
 .navigation 
  {
   font-size: 17px;
@@ -245,6 +239,66 @@ background-color: #80c180;
       color: white;
     
 }
+
+.goods-popular-title, .brands-popular-title 
+
+
+{
+    
+  font-size: 30px;
+    color: rgb(50, 66, 92);
+  text-transform: uppercase;
+  line-height: 1;
+ }
+
+    
+.goods-popular-link, .brands-list-link
+{
+  font-size: 14px;
+   color: white;
+  text-transform: uppercase;
+  line-height: 18px;
+  text-align: center;
+  background-color: #ee3643;
+}
+
+.goods-perforator 
+{
+  font-size: 18px;
+  font-family: "PTSans", Arial, sans-serif;
+  color: black;
+  font-weight: bold;
+  line-height: 20;
+  
+}
+
+.old-price, .price
+{
+  font-size: 17px;
+  font-family: "PTSans" color: black;
+  color: rgb(169, 169, 169);
+  font-weight: bold;
+  text-decoration: line-through;
+  text-transform: uppercase;
+ }
+
+
+.new-price
+{
+  font-size: 17px;
+  font-family: "PTSans"color: black;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 18;
+  background-color: #ee3643;
+  
+}
+
+
+
+
+
 
 
 .navigation a:hover,
