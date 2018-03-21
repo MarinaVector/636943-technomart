@@ -46,26 +46,26 @@ src: url('../fonts/cuprumitalic.woff2') format('woff2'),
   font-size: 17px;
   font-family: "cuprum", Arial, sans-serif;
   line-height: 17px;
-}
+  }
 
 .user-submenu-item .link-underline {
   color: #32425c;
   text-decoration: underline;
   font-size: 16px;
     line-height: 18px;
-}
+  }
 
 .link-page {
     text-decoration: none;
-}
+  }
 
 .list-style {
   list-style: none;
-}
+  }
 
 .button {
   font: inherit;
-}
+  }
 
  .menu-top {
   background-color: #32425c;
@@ -79,19 +79,19 @@ src: url('../fonts/cuprumitalic.woff2') format('woff2'),
   text-transform: uppercase;
   font-size: 24px;
   line-height: 24px;
-}
+  }
 
 .logo-button:hover {
   background-color: #cc2c34;
-}
+  }
 
 .logo-button:focus {
   background-color: #b42434;
-}
+  }
 
 .logo-button:active {
   background-color: #ec3444;
-}
+  }
 
 .menu-search-control:hover {
   background-color: #1c243c;
@@ -104,7 +104,7 @@ src: url('../fonts/cuprumitalic.woff2') format('woff2'),
 
 .menu-search-control:active {
   background-color: #293449;
-}
+  }
 
 .menu-bookmarks-link:hover, 
 .menu-basket-link:hover {
@@ -114,77 +114,77 @@ src: url('../fonts/cuprumitalic.woff2') format('woff2'),
 .menu-bookmarks-link:focus, 
 .menu-basket-link:focus {
   background-color:#141c2c;
-}
+  }
 
 .menu-bookmarks-link:active,
 .menu-basket-link:active {
   background-color: #293449;
   color: 9098a5;
-}
+  }
 
 .menu-order-link:hover {
   background-color: #5cbc2c;
-}
+  }
 
 .menu-order-link:focus {
   background-color: #538434;
-}
+  }
 
 .menu-order-link:active {
   background-color: #64a43c;
-}
+  }
 
 .login,
 .registration {
     background-color: white;
   color: black;
   font-size: 21px;
-}
+  }
 
 .login:hover,
 .registration:hover,
 .user-submenu-link:hover {
   color: #ec3444;
-}
+  }
 
 .login:active,
 .registration:active,
 .user-submenu-link:active,
 .user-menu-button:active {
   color: #9098a5;
- }
+  }
   
 .navigation-item-link:hover {
   background-color: #293449;
-}
+  }
 
 .navigation-item-link:active {
   background-color: #1c243c;
-}
+  }
 
 .menu-bookmarks-link {
    color: white;
   font-size: 17px;
   line-height: 18px;
-}
+  }
 
 .menu-basket-link {
     color: white;
   font-size: 17px;
   line-height: 18px;
-}
+  }
 
 .menu-order-link {
    background-color: #63a63e;
   color: white;
-}
+  }
 
 .menu-head-info {
   color: #ee3643;
   font-style: italic;
   font-size: 16px;
   line-height: 23px;
- }
+  }
 
 .menu {
   background-color: #f3f7f9;
@@ -193,12 +193,12 @@ src: url('../fonts/cuprumitalic.woff2') format('woff2'),
 .menu-search-control {
   border: 0;
    background-color: #32425c;
-}
+  }
 
 .menu-top {
   font-size: 17px;
    line-height: 18px;
-}
+  }
 
 .head-contact-phone {
   border: 3px solid white;
@@ -212,7 +212,7 @@ src: url('../fonts/cuprumitalic.woff2') format('woff2'),
   color: black;
     font-size: 21px;
   line-height: 21px;
-   }
+  }
 
 .footer-contacts-phone {
   color: white;
@@ -234,7 +234,7 @@ src: url('../fonts/cuprumitalic.woff2') format('woff2'),
 
 .footer-bottom {
   background-color: #293449;
-}
+  }
 
 .breadcrumbs-link {
   color: black;
@@ -242,7 +242,7 @@ src: url('../fonts/cuprumitalic.woff2') format('woff2'),
 font-size: 13px;
 font-family: "ptsans","Arial",sans-serif;
 line-height: 18px;
-}
+  }
     
 .tooling,
 .materials,
@@ -253,14 +253,14 @@ line-height: 18px;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
- }
+  }
 
  .block-link {
    background-color: #e4e4e4;
   color: white;
     text-transform: uppercase;
   font-size: 14px;
-  line-height: 18 px;
+  line-height: 18px;
   }
 
 .block-link:hover {
@@ -275,14 +275,14 @@ line-height: 18px;
   text-transform: uppercase;
       font-size: 24px;
   line-height: 30px;
- }
+  }
 
 .perforators-about-description {
   font-weight: 400;
       font-size: 13px;
   font-family: "ptsans","Arial",sans-serif;
   line-height: 24px;
-}
+  }
 
 .materials,
 .shipment {
@@ -305,13 +305,13 @@ background-color: #8ed78f;
 .footer-shop-list,
 .nav-footer {
   background-color: #32425c;
-}
+  }
 
 .navigation-item-link,
 .navigation-footer-item-link,
 .social {
  color: white;
-}
+  }
 
 .goods-popular-title, 
 .brands-popular-title,
@@ -321,7 +321,7 @@ background-color: #8ed78f;
   text-transform: uppercase;
   font-size: 30px;
   line-height: 30px;
- }
+  }
 
 .company-tehnomart,
 .contacts-title {
@@ -329,7 +329,7 @@ background-color: #8ed78f;
   text-transform: uppercase;
   font-size: 30px;
   line-height: 24px;
- }
+  }
 
 .slider-button,
 .submit-button-control {
@@ -338,7 +338,7 @@ background-color: #8ed78f;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 18px;
-}
+  }
 
 .credit-button-link {
     background-color: #ff5357;
@@ -346,7 +346,7 @@ background-color: #8ed78f;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 18px;
-}
+  }
 
 .slider-button:hover {
   background-color: #c42c34;
@@ -362,13 +362,13 @@ background-color: #8ed78f;
   font-weight: 700;
   font-size: 36px;
   line-height: 30px;
-}
+  }
 
 .slide-inscription {
   color: white;
   font-size: 18px;
   line-height: 24px;
-}
+  }
 
 .goods-perforator,
 .image-perforator {
@@ -383,7 +383,7 @@ background-color: #8ed78f;
 .brands-item-logo,
 .page-button {
   border: 1px solid #e5e5e5;
-} 
+  } 
 
 .page-button:hover {
 border: 1px solid #bbc4cc;
@@ -406,7 +406,7 @@ color: black;
 
 .perfrators-subject  {
   background-color: #f2f6f8;
-}
+  }
 
 .side-topbar, 
 .sort-option,
@@ -418,21 +418,21 @@ color: black;
   font-size: 13px;
   font-family: "ptsans", Arial, sans-serif;
   line-height: 18px;
-}
+  }
 
 .sort-option {
   border-bottom: 1px dashed #ec3444;
   color: #acaaa5;
-}
+  }
 
 .sort-option:hover {
   border-bottom: 1px solid #ec3444;
   color: #acaaa5;
-}
+  }
 
 .sort-option:active {
   color: #ec3444;
- }
+  }
 
 .old-price {
   color: rgb(169, 169, 169);
@@ -442,7 +442,7 @@ color: black;
   font-size: 17px;
   font-family: "ptsans", Arial, sans-serif;
   line-height: 18;
- }
+  }
 
 .new-price,
 .price {
@@ -454,7 +454,7 @@ color: black;
   font-size: 17px;
   font-family: "ptsans", Arial, sans-serif;
   line-height: 18px;
-}
+  }
 
 .buy {
 border: none;
@@ -467,11 +467,11 @@ line-height: 18px;
 
 .buy:hover {
   background-color: #5cbc2c;
-}
+  }
 
 .buy:activ {
   background-color: #538434;
-}
+  }
 
 .bookmark {
 border: 3px solid #63a63e;
@@ -518,13 +518,12 @@ border: 3px solid #c4c4cc;
   font-size: 13px;
   font-family: "ptsans", Arial, sans-serif;
   line-height: 24px;
-}
+  }
 
-.list-style company-delivery {
+.company-delivery {
   font-size: 18px;
   line-height: 40px;
-}
-
+  }
 
 .details,
 .post-feedback,
@@ -540,7 +539,7 @@ border: 3px solid #c4c4cc;
 
 .services {
   background-color: #f4f8f9;
-}
+  }
 
 .services-item-link {
   background-color: #32425c;
@@ -548,7 +547,7 @@ border: 3px solid #c4c4cc;
   font-weight: 700;
   font-size: 21px;
   line-height: 30px;
-   }
+  }
 
 .services-item-link:hover {
   background-color: #293449;
@@ -556,7 +555,7 @@ border: 3px solid #c4c4cc;
   font-weight: 700;
   font-size: 21px;
   line-height: 30px;
-   }
+  }
 
 .services-item-link:active {
   background-color: white;
@@ -564,17 +563,17 @@ border: 3px solid #c4c4cc;
   font-weight: 700;
   font-size: 21px;
   line-height: 30px;
-   }
+  }
 
 .company-delivery-link {
    color: black;
   font-size: 18px;
     line-height: 40px;
-    }
+  }
 
 .services {
   background-color: #f4f8f9;
-}
+  }
 
 .footer-contacts-address {
   color: white;
@@ -592,40 +591,40 @@ font-size: 21px;
   color: #fdc762;
   font-size: 18px;
 line-height: 24px;
-}
+  }
 
 .footer-shop-link:hover {
   color: #fdc762;
   text-decoration: underline;
   font-size: 18px;
 line-height: 24px;
-}
+  }
 
 .footer-shop-link:hover {
   color: #92856d;
   font-size: 18px;
 line-height: 24px;
-}
+  }
  
 .navigation-footer-item-link {
   color: white;
   font-size: 18px;
 line-height: 24px;
-}
+  }
 
 .navigation-footer-item-link:hover {
   color: white;
   text-decoration: underline;
   font-size: 18px;
   line-height: 24px;
-}
+  }
 
 .navigation-footer-item-link:active {
   color: white;
   color: #8b96a4;
   font-size: 18px;
   line-height: 24px;
-}
+  }
 
 .products-title {
   background-color: #f4f7f9;
@@ -663,7 +662,7 @@ line-height: 24px;
     font-size: 17px;
     font-family: "ptsans", Arial, sans-serif;
     line-height: 30px;
-}
+  }
 
 .manufacturers,
 .supply-title {
@@ -673,7 +672,7 @@ line-height: 24px;
    font-size: 17px;
    font-family: "ptsans", Arial, sans-serif; 
    line-height: 30px;
-      }
+  }
 
 .checkbox-label,
 .radio-button-label {
@@ -692,15 +691,15 @@ line-height: 24px;
   font-size: 17px;
   font-family: "ptsans", Arial, sans-serif; 
   line-height: 18px;
-    }
+  }
 
 .sidebar,
 .makers,
 .power-type,
 .price-min,
 .price-max {
- border:0 none;
-}
+ border: 0;
+  }
 
 .copyright-company,
 .feedback,
@@ -708,7 +707,7 @@ line-height: 24px;
   color: white;
   font-size: 16px;
   line-height: 18px;
- }
+  }
 
 .feedback-mail,
 .copyright-link {
@@ -719,45 +718,46 @@ line-height: 18px;
 
 .goods-catalog-items-list,
 .price-filter-range {
-  background-color: #f7f3ec;
-}
+background-color: #f7f3ec;
+  }
 
 .footer-bottom,
 .menu-top-wrapper {
-  background-color: #293449;
-}
+background-color: #293449;
+  }
 
 .navigation-basic,
 .nav-footer {
-  background-color: #32425c;
-}
+background-color: #32425c;
+  }
 
 .brands-popular,
 .goods-popular {
   background-color: #f9f5f0;
-    }
+  }
 
 .cart-adding-content {
-font-size: 30px;
-line-height: 30px;
+  font-size: 30px;
+  line-height: 30px;
   }
 
 .continue-shopping {
   background-color: white;
   text-transform: uppercase;
   font-size: 14px;
-  line-height: 18 px;
+  line-height: 18px; 
   }
+
 .cart-adding-buttons {
   background-color: #f1f1f1;
-}
+  }
 
 .form-name-label,
 .form-email-label,
 .letter-text-label {
   font-size: 18px;
-  line-height: 18 px;
-}
+  line-height: 18px;
+  }
 
 .form-name-control,
 .answer-email-control,
@@ -767,7 +767,7 @@ line-height: 30px;
   font-size: 13px;
   font-family: "ptsans", Arial, sans-serif; 
   line-height: 18px;
-}
+  }
 
 .button-close-post,
 .button-close-map,
