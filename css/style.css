@@ -124,6 +124,8 @@
 
 .menu-order-link:hover {
   background-color: #5cbc2c;
+  padding: 12px 22px 12px 20px;
+  
 }
 
 .menu-order-link:focus {
@@ -193,6 +195,7 @@
   font-style: italic;
   font-size: 16px;
   line-height: 23px;
+  font-weight: 400;
 }
 
 .menu {
@@ -303,7 +306,7 @@
   background-color: #8ed78f;
 }
 
-.navigation,
+
 .footer-shop-list,
 .nav-footer {
   background-color: #32425c;
@@ -323,6 +326,7 @@
   text-transform: uppercase;
   font-size: 30px;
   line-height: 30px;
+  font-weight: 400;
 }
 
 .company-tehnomart,
@@ -527,6 +531,8 @@
   text-transform: uppercase;
   font-size: 30px;
   line-height: 30px;
+  font-weight: 400;
+  color: #32425c;
 }
 
 .services-about {
@@ -534,6 +540,7 @@
   text-transform: uppercase;
   font-size: 30px;
   line-height: 24px;
+  font-weight: 400;
 }
 
 .services-about-description,
@@ -805,3 +812,124 @@
   color: #ee3643;
   font-weight: 700;
 }
+
+/* сетки*/
+
+html,
+.page {
+  width: 1200px;
+  min-height: 3151px;
+  margin: auto;
+}
+
+.menu-top {
+    min-height: 42px;
+}
+
+/* шапка с верхней навигацией */
+.page-header {
+  margin-bottom: 60px;
+  /* Временно для сетки */
+  min-height: 320px;
+  margin: 0;
+  padding: 0;
+  }
+
+
+/* логотип вверху */
+.top-logo {
+  width: 220px;
+  min-height: 42px;
+  background-color: #ee3643;  
+ }
+
+
+.logo-button {
+  padding: 11px 0 7px 55px;
+}
+
+.menu-top-header {
+  margin: 0;
+  padding: 0;
+  
+   
+  /* Временно для сетки */
+  min-height: 42px;
+}
+
+.menu-order {
+   width: 150px;
+  min-height: 42px;
+  background-color: #63a63e;
+}
+.menu-head {
+  margin: 0;
+  padding: 0;
+  
+  list-style: none;
+  
+  /* Временно для сетки */
+  min-height: 159px;
+}
+
+.menu-top-wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu {
+  margin-left: 130px ;
+  padding: 0;
+   width: 940px;
+  list-style: none;
+  background-color: #32425c;
+  
+  
+  /* Временно для сетки */
+ 
+  min-height: 60px;
+}
+
+.feature {
+  width: 300px;
+  height: 123px;
+}
+
+.goods-item {
+  width: 220px;
+  min-height: height: 318px;
+  
+}
+
+
+.brands-item-logo {
+  width: 220px;
+  min-height: height: 145px;
+  
+}
+
+.menu-top-header {
+  display: flex;
+  margin-left: 392px;
+  flex-wrap: wrap-reverse;
+  
+}
+
+.menu-head-go {
+  display: flex;
+}
+
+
+.menu-top-wrapper-main {
+  
+  display: flex;
+}
+
+
+
+.navigation-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+
