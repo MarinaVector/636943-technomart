@@ -150,6 +150,7 @@
         <h2 class="goods-popular-title">Популярные товары:</h2>
         <a class="link-page goods-popular-link" href="#">Все популярные товары</a>
       </header>
+
       <section class="list-style goods-list">
         <div class="goods-item">
           <div class="item-block">
@@ -162,8 +163,8 @@
             <del class="old-price">32500 Р.</del>
             <ins class="new-price">25500 Р.</ins>
           </div>
-
         </div>
+
         <div class="goods-item">
           <div class="item-block">
             <div class="actions">
@@ -175,8 +176,8 @@
             <del class="old-price">22500 Р.</del>
             <ins class="new-price">15500 Р.</ins>
           </div>
-
         </div>
+
         <div class="goods-item">
           <div class="item-block">
             <div class="actions">
@@ -189,6 +190,7 @@
             <ins class="new-price">25500 Р.</ins>
           </div>
         </div>
+
         <div class="goods-item">
           <div class="item-block">
             <div class="actions">
@@ -201,6 +203,7 @@
             <ins class="new-price">12500 Р.</ins>
           </div>
         </div>
+
       </section>
 
     </section>
@@ -239,29 +242,31 @@
     </section>
   </main>
 
+
+
   <section class="services">
-    <main class="container">
+    <div class="container">
       <h3 class="services-about">Сервисы</h3>
       <p class="services-about-description">Хороший интернет-магазин отличается от&nbsp;плохого не&nbsp;только ценами! Мы&nbsp;стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
 
-      <div class="info-customers">
-        <ul class="list-style services-list">
-          <li class="services-item">
-            <a class="link-page services-item-link" href="#">Доставка</a>
-          </li>
-          <li class="services-item">
-            <a class="link-page services-item-link services-item-link-warranty" href="#">Гарантия</a>
-          </li>
-          <li class="services-item">
-            <a class="link-page services-item-link services-item-link-credit" href="#">Кредит</a>
-          </li>
-        </ul>
+      <div class="service-info">
 
-        <div class="service-slider">
-          <div class="service-delivery">
-            <h3 class="delivery-about">Доставка</h3>
-            <div class="delivery-about-description">Мы&nbsp;с&nbsp;удовольствием доставим ваш товар прямо к&nbsp;вашему подъезду совершенно бесплатно!</div>
-            <div class="delivery-about-money">Ведь мы&nbsp;неполохо заработаем, поднимая его на&nbsp;ваш этаж!</div>
+        <div class="services-slider">
+          <input class="radio-1" type="radio" name="toggle" checked id="radio-1">
+          <input class="radio-2" type="radio" name="toggle" id="services-radio-2">
+          <input class="radio-3" type="radio" name="toggle" id="services-radio-3">
+          <div class="services-slider-controls">
+            <label for="radio-1" class="service-items">Доставка</label>
+            <label for="radio-2" class="service-items">Гарантия</label>
+            <label for="radio-3" class="service-items">Кредит</label>
+          </div>
+
+          <div class="service-slider">
+            <div class="service-delivery">
+              <h3 class="delivery-about">Доставка</h3>
+              <div class="delivery-about-description">Мы&nbsp;с&nbsp;удовольствием доставим ваш товар прямо к&nbsp;вашему подъезду совершенно бесплатно!</div>
+              <div class="delivery-about-money">Ведь мы&nbsp;неполохо заработаем, поднимая его на&nbsp;ваш этаж!</div>
+            </div>
           </div>
         </div>
 
@@ -286,10 +291,14 @@
           </div>
         </div>
       </div>
+    </div>
+  </section>
 
 
 
-      <section class="company">
+  <section class="company-description">
+    <div class="container">
+      <div class="company">
         <div class="company-info">
           <h2 class="company-tehnomart">Компания «Техномарт»</h2>
           <p class="company-tehnomart-description">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не&nbsp;оставит равнодушным любителей сэкономить на&nbsp;гастарбайтерах.</p>
@@ -317,102 +326,102 @@
             <a class="link-page post-feedback" href="#">Заблудились? Напишите нам!</a>
           </div>
         </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <nav class="nav-footer">
-        <div class="container">
-          <div class="navigation-basic">
-            <div class="logo logo-footer">
-              <a class="link-page logo-button logo-button-footer">Техномарт</a>
-            </div>
-            <div class="navigation footer-navigation">
-              <ul class="list-style navigation-footer-list">
-                <li class="navigation-footer-item">
-                  <a class="link-page navigation-footer-item-link" href="#">Компания</a>
-                </li>
-                <li class="navigation-footer-item">
-                  <a class="link-page navigation-footer-item-link" href="#">Новости</a>
-                </li>
-                <li class="navigation-footer-item">
-                  <a class="link-page navigation-footer-item-link" href="catalog.html">Каталог</a>
-                </li>
-                <li class="navigation-footer-item">
-                  <a class="link-page navigation-footer-item-link" href="#">Доставка</a>
-                </li>
-                <li class="navigation-footer-item">
-                  <a class="link-page navigation-footer-item-link" href="#">Контакты</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="footer-menu">
-            <div class="footer-contacts">
-              <p class="footer-contacts-address">г. Санкт-Петербург, ул. Б.&nbsp;Конюшенная, д. 19/8</p>
-              <a class="link-page footer-contacts-phone" href="tel:+7(812)555-05-55">+7 (812) 555-05-55</a>
-            </div>
-            <div class="navigation-bottom">
-              <ul class="list-style footer-shop-list">
-                <li class="footer-shop-item">
-                  <a class="link-page footer-shop-link" href="#">Материалы</a>
-                </li>
-                <li class="footer-shop-item">
-                  <a class="link-page footer-shop-link" href="#">Техника</a>
-                </li>
-                <li class="footer-shop-item">
-                  <a class="link-page footer-shop-link" href="#">Инструмент</a>
-                </li>
-                <li class="footer-shop-item">
-                  <a class="link-page footer-shop-link" href="#">Спецпредложения</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
-
-      <section class="footer-bottom">
-        <div class="container footer-bottom-social">
-          <h3 class="copyright-company">&copy;&nbsp;2010-2017 Компания &laquo;Техномарт&raquo; Все права защищены</h3>
-          <div class="social">
-            <a class="link-page social-button social-button-vk" href="http://vk.com ">Вконтакте</a>
-            <a class="link-page social-button social-button-fb" href="http://facebook.com">Facebook</a>
-            <a class="link-page social-button social-button-inst" href="http://instagram.com">Instagram</a>
-          </div>
-          <p class="feedback">Обратная связь:
-            <a class="link-page feedback-mail" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-          </p>
-          <p class="copyright">Разработано —
-            <a class="link-page copyright-link" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
-          </p>
-        </div>
-      </section>
-    </footer>
-
-
-    <section class="letter-popup visually-hidden">
-      <form class="write-us-form" action="#" method="post">
-        <label class="form-name-label" for="name">Ваше имя:</label>
-        <input class="form-name-control" type="text" id="name" name="name" placeholder="Представьтесь пожалуйста">
-        <label class="form-email-label" for="email">Ваш e-mail:</label>
-        <input class="answer-email-control" type="email" id="email" name="email" placeholder="Для отправки ответа">
-        <label class="letter-text-label" for="letter-field">Текст письма:</label>
-        <textarea class="link-page letter-text-field" name="letter" id="letter-field" placeholder="В&nbsp;свободной форме"></textarea>
-        <button class="submit-button-control" type="submit">Отправить</button>
-        <button class="button-close-post" type="button">✕</button>
-      </form>
-    </section>
-
-    <section class="map-popup visually-hidden">
-      <div class="map-popup-picture">
-        <img src="img/map-popup.jpg" alt="Интернет-магазин по&nbsp;адресу: г.Санкт-Петербург, ул. Большая Конюшенная, дом&nbsp;19." width="940" height="446">
       </div>
-      <button class="button-close-map" type="button">✕</button>
-    </section>
+    </div>
   </section>
 
+
+  <footer class="footer">
+    <nav class="nav-footer">
+      <div class="container">
+        <div class="navigation-basic">
+          <div class="logo logo-footer">
+            <a class="link-page logo-button logo-button-footer">Техномарт</a>
+          </div>
+          <div class="navigation footer-navigation">
+            <ul class="list-style navigation-footer-list">
+              <li class="navigation-footer-item">
+                <a class="link-page navigation-footer-item-link" href="#">Компания</a>
+              </li>
+              <li class="navigation-footer-item">
+                <a class="link-page navigation-footer-item-link" href="#">Новости</a>
+              </li>
+              <li class="navigation-footer-item">
+                <a class="link-page navigation-footer-item-link" href="catalog.html">Каталог</a>
+              </li>
+              <li class="navigation-footer-item">
+                <a class="link-page navigation-footer-item-link" href="#">Доставка</a>
+              </li>
+              <li class="navigation-footer-item">
+                <a class="link-page navigation-footer-item-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-menu">
+          <div class="footer-contacts">
+            <p class="footer-contacts-address">г. Санкт-Петербург, ул. Б.&nbsp;Конюшенная, д. 19/8</p>
+            <a class="link-page footer-contacts-phone" href="tel:+7(812)555-05-55">+7 (812) 555-05-55</a>
+          </div>
+          <div class="navigation-bottom">
+            <ul class="list-style footer-shop-list">
+              <li class="footer-shop-item">
+                <a class="link-page footer-shop-link" href="#">Материалы</a>
+              </li>
+              <li class="footer-shop-item">
+                <a class="link-page footer-shop-link" href="#">Техника</a>
+              </li>
+              <li class="footer-shop-item">
+                <a class="link-page footer-shop-link" href="#">Инструмент</a>
+              </li>
+              <li class="footer-shop-item">
+                <a class="link-page footer-shop-link" href="#">Спецпредложения</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="footer-bottom">
+      <div class="container footer-bottom-social">
+        <h3 class="copyright-company">&copy;&nbsp;2010-2017 Компания &laquo;Техномарт&raquo; Все права защищены</h3>
+        <div class="social">
+          <a class="link-page social-button social-button-vk" href="http://vk.com ">Вконтакте</a>
+          <a class="link-page social-button social-button-fb" href="http://facebook.com">Facebook</a>
+          <a class="link-page social-button social-button-inst" href="http://instagram.com">Instagram</a>
+        </div>
+        <p class="feedback">Обратная связь:
+          <a class="link-page feedback-mail" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+        </p>
+        <p class="copyright">Разработано —
+          <a class="link-page copyright-link" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
+        </p>
+      </div>
+    </section>
+  </footer>
+
+
+  <section class="letter-popup visually-hidden">
+    <form class="write-us-form" action="#" method="post">
+      <label class="form-name-label" for="name">Ваше имя:</label>
+      <input class="form-name-control" type="text" id="name" name="name" placeholder="Представьтесь пожалуйста">
+      <label class="form-email-label" for="email">Ваш e-mail:</label>
+      <input class="answer-email-control" type="email" id="email" name="email" placeholder="Для отправки ответа">
+      <label class="letter-text-label" for="letter-field">Текст письма:</label>
+      <textarea class="link-page letter-text-field" name="letter" id="letter-field" placeholder="В&nbsp;свободной форме"></textarea>
+      <button class="submit-button-control" type="submit">Отправить</button>
+      <button class="button-close-post" type="button">✕</button>
+    </form>
+  </section>
+
+  <section class="map-popup visually-hidden">
+    <div class="map-popup-picture">
+      <img src="img/map-popup.jpg" alt="Интернет-магазин по&nbsp;адресу: г.Санкт-Петербург, ул. Большая Конюшенная, дом&nbsp;19." width="940" height="446">
+    </div>
+    <button class="button-close-map" type="button">✕</button>
+  </section>
 </body>
 
 </html>

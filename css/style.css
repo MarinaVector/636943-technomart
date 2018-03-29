@@ -2,40 +2,35 @@
   font-weight: 400;
   font-style: normal;
   font-family: 'cuprum';
-  src: url('../fonts/cuprum.woff2') format('woff2'),
-  url('../fonts/cuprum.woff') format('woff');
+  src: url('../fonts/cuprum.woff2') format('woff2'), url('../fonts/cuprum.woff') format('woff');
 }
 
 @font-face {
   font-weight: 700;
   font-style: normal;
   font-family: 'cuprum';
-  src: url('../fonts/cuprumbold.woff2') format('woff2'),
-  url('../fonts/cuprumbold.woff') format('woff');
+  src: url('../fonts/cuprumbold.woff2') format('woff2'), url('../fonts/cuprumbold.woff') format('woff');
 }
 
 @font-face {
   font-weight: 400;
   font-style: italic;
   font-family: 'cuprum';
-  src: url('../fonts/cuprumitalic.woff2') format('woff2'),
-  url('../fonts/cuprumtalic.woff') format('woff');
+  src: url('../fonts/cuprumitalic.woff2') format('woff2'), url('../fonts/cuprumtalic.woff') format('woff');
 }
 
 @font-face {
   font-weight: 400;
   font-style: normal;
   font-family: 'ptsans';
-  src: url('../fonts/ptsans.woff2') format('woff2'),
-  url('../fonts/ptsans.woff') format('woff');
+  src: url('../fonts/ptsans.woff2') format('woff2'), url('../fonts/ptsans.woff') format('woff');
 }
 
 @font-face {
   font-weight: 700;
   font-style: normal;
   font-family: 'ptsans';
-  src: url('../fonts/ptsansbold.woff2') format('woff2'),
-  url('../fonts/ptsansbold.woff') format('woff');
+  src: url('../fonts/ptsansbold.woff2') format('woff2'), url('../fonts/ptsansbold.woff') format('woff');
 }
 
 .page {
@@ -44,7 +39,7 @@
   background-color: white;
   color: black;
   font-size: 17px;
-  font-family: "cuprum", Arial, sans-serif;
+  font-family: 'cuprum', Arial, sans-serif;
   line-height: 17px;
 }
 
@@ -163,7 +158,6 @@
 
 .menu-head-info {
   display: block;
-  float: left;
   margin-top: 49px;
   margin-right: 20px;
   margin-bottom: 0;
@@ -216,13 +210,9 @@
 
 .navigation-item {
   padding-top: 21px;
+  padding-right: 30px;
   padding-bottom: 21px;
   padding-left: 30px;
-  padding-right: 30px;
-}
-
-.navigation-item-link: {
-  background-color: #32425c;
 }
 
 .navigation-item-link,
@@ -258,12 +248,12 @@
 }
 
 .menu-search-control {
-  border: 0;
-  background-color: #32425c;
-  min-height: 42px;
-  width: 267px;
   position: relative;
   padding: 0;
+  min-height: 42px;
+  width: 263px;
+  border: 0;
+  background-color: #32425c;
 }
 
 .menu-top {
@@ -309,13 +299,6 @@ menu-basket-link {
   line-height: 24px;
 }
 
-.user-menu-button {
-  background-color: white;
-  color: black;
-  font-size: 21px;
-  line-height: 21px;
-}
-
 .footer-contacts-phone {
   color: white;
   font-size: 18px;
@@ -340,7 +323,7 @@ menu-basket-link {
   color: black;
   text-transform: uppercase;
   font-size: 13px;
-  font-family: "ptsans", "Arial", sans-serif;
+  font-family: 'ptsans', 'Arial', sans-serif;
   line-height: 18px;
 }
 
@@ -349,12 +332,12 @@ menu-basket-link {
 .tech,
 .discounts,
 .shipment {
+  margin-bottom: 18px;
   padding-left: 23px;
   color: white;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
-  margin-bottom: 18px;
 }
 
 .feature {
@@ -362,8 +345,8 @@ menu-basket-link {
   display: inline-block;
   margin-top: 0;
   margin-right: 0;
-  margin-left: 20px;
   margin-bottom: 20px;
+  margin-left: 20px;
   width: 300px;
   vertical-align: middle;
 }
@@ -385,7 +368,6 @@ menu-basket-link {
   background-color: rgba(0, 0, 0, 0.1);
   color: white;
   text-align: center;
-  text-align: center;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 18px;
@@ -401,21 +383,22 @@ menu-basket-link {
 
 .perforators-about {
   text-transform: uppercase;
-  font-size: 24px;
+  font-weight: 400;
+  font-size: 30px;
   line-height: 30px;
 }
 
 .perforators-about-description {
   font-weight: 400;
   font-size: 13px;
-  font-family: "ptsans", "Arial", sans-serif;
+  font-family: 'ptsans', 'Arial', sans-serif;
   line-height: 24px;
 }
 
 .slider {
   margin-top: 0;
-  margin-left: 0;
   margin-right: 0;
+  margin-left: 0;
 }
 
 .feature-materials,
@@ -450,15 +433,16 @@ menu-basket-link {
 
 .brands-list {
   display: flex;
-  flex-wrap: wrap;
   padding-left: 0;
+
+  flex-wrap: wrap;
 }
 
 .goods-popular-title,
 .brands-popular-title,
 .details,
 .post-feedback {
-  padding-top: 0;
+  display: inline-block;
   padding-bottom: 0;
   padding-left: 28px;
   color: #32425c;
@@ -466,22 +450,21 @@ menu-basket-link {
   font-weight: 400;
   font-size: 30px;
   line-height: 30px;
-  display: inline-block
 }
 
 .company-tehnomart,
 .contacts-title {
   color: black;
   text-transform: uppercase;
+  font-weight: 400;
   font-size: 30px;
   line-height: 24px;
-  font-weight: 400;
 }
 
 .slider-list {
-  padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 0;
 }
 
 .slider-button,
@@ -504,7 +487,6 @@ menu-basket-link {
   bottom: 23px;
   left: 25px;
   z-index: 1;
-  display: inline-block;
   padding: 8px 40px;
   border-radius: 3px;
 }
@@ -518,32 +500,33 @@ menu-basket-link {
   padding-top: 10px;
   padding-bottom: 9px;
   border-radius: 3px;
+  vertical-align: middle;
   text-align: center;
 }
 
 .details,
 .post-feedback {
   display: inline-block;
-  border-radius: 3px;
-  text-align: center;
   padding-top: 10px;
   padding-bottom: 9px;
+  border-radius: 3px;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .details {
-  padding-left: 40px;
   padding-right: 40px;
+  padding-left: 40px;
 }
 
 .post-feedback {
-  padding-left: 60px;
   padding-right: 60px;
+  padding-left: 60px;
 }
 
 .goods-popular-link {
-  padding-left: 56px;
   padding-right: 54px;
-
+  padding-left: 56px;
 }
 
 .brands-item-logo-image {
@@ -567,7 +550,8 @@ menu-basket-link {
 .post-feedback:active,
 .button-place-order:active,
 .goods-popular-link:active,
-.brands-list-link:active .credit-button-link:active {
+.brands-list-link:active,
+.credit-button-link:active {
   background-color: #ba2732;
 }
 
@@ -595,6 +579,7 @@ menu-basket-link {
   left: 23px;
   display: inline-block;
   color: white;
+  vertical-align: middle;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 36px;
@@ -628,7 +613,8 @@ menu-basket-link {
   flex-direction: column;
 }
 
-.item-block {
+.item-block,
+.item-block-catalog {
   position: relative;
   display: block;
   width: 218px;
@@ -641,21 +627,26 @@ menu-basket-link {
   margin-right: 0;
 }
 
+.item-block:hover .actions,
+.item-block-catalog :hover .actions {
+  visibility: visible;
+}
+
 .goods-perforator,
 .image-perforator {
   color: black;
   font-weight: 700;
   font-size: 18px;
-  font-family: "ptsans", Arial, sans-serif;
+  font-family: 'ptsans', Arial, sans-serif;
   line-height: 20px;
 }
 
 .brands-item-logo {
-  border: 1px solid #e5e5e5;
-  margin-bottom: 20px;
   margin-right: 17px;
-  height: 145px;
+  margin-bottom: 20px;
   width: 220px;
+  height: 145px;
+  border: 1px solid #e5e5e5;
 }
 
 .brands-item-logo:nth-child(4) {
@@ -663,15 +654,13 @@ menu-basket-link {
 }
 
 .brands-item-logo:last-child {
-  margin-bottom: 0;
   margin-right: 0;
+  margin-bottom: 0;
 }
 
 .brands {
   margin-bottom: 86px;
 }
-
-
 
 .goods-image {
   margin-top: 40px;
@@ -683,15 +672,11 @@ menu-basket-link {
   top: 0;
   left: 0;
   display: block;
+  visibility: hidden;
   padding-top: 40px;
   min-height: 140px;
   width: 100%;
   background-color: #ffffff;
-  visibility: hidden;
-}
-
-.item-block:hover .actions {
-  visibility: visible;
 }
 
 .goods-image img {
@@ -699,15 +684,16 @@ menu-basket-link {
 }
 
 .goods-item:hover,
+.goods-item-catalog:hover,
 .brands-item-logo:hover {
   border: 0;
   box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
 }
 
-.goods-item:hover .actions {
+.goods-item:hover .actions,
+.goods-item-catalog:hover .actions {
   visibility: visible;
 }
-
 
 .brands-item-logo:active {
   border: 0;
@@ -735,6 +721,8 @@ menu-basket-link {
 }
 
 .perfrators-subject {
+  padding-top: 66px;
+  padding-bottom: 73px;
   background-color: #f2f6f8;
 }
 
@@ -746,7 +734,7 @@ menu-basket-link {
   font-weight: 400;
   font-style: normal;
   font-size: 13px;
-  font-family: "ptsans", Arial, sans-serif;
+  font-family: 'ptsans', Arial, sans-serif;
   line-height: 18px;
 }
 
@@ -774,7 +762,7 @@ menu-basket-link {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 17px;
-  font-family: "ptsans", Arial, sans-serif;
+  font-family: 'ptsans', Arial, sans-serif;
   line-height: 18px;
 }
 
@@ -799,7 +787,6 @@ menu-basket-link {
 .delivery-about,
 .warranty-about,
 .credit-about {
-  color: black;
   color: #32425c;
   text-transform: uppercase;
   font-weight: 400;
@@ -808,13 +795,13 @@ menu-basket-link {
 }
 
 .services-about {
+  padding-top: 68px;
+  padding-left: 0;
   color: black;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 30px;
   line-height: 24px;
-  padding-top: 68px;
-  padding-left: 0;
 }
 
 .services-about-description,
@@ -827,7 +814,7 @@ menu-basket-link {
   font-weight: 400;
   font-style: normal;
   font-size: 13px;
-  font-family: "ptsans", Arial, sans-serif;
+  font-family: 'ptsans', Arial, sans-serif;
   line-height: 24px;
 }
 
@@ -840,11 +827,10 @@ menu-basket-link {
 }
 
 .services-about-description {
-  width: 400px;
-  padding-left: 0;
   margin-bottom: 30px;
+  padding-left: 0;
+  width: 400px;
 }
-
 
 .service-background {
   position: absolute;
@@ -857,29 +843,8 @@ menu-basket-link {
 }
 
 .services {
+  min-height: 520px;
   background-color: #f4f8f9;
-}
-
-.services-item-link {
-  background-color: #32425c;
-  color: white;
-  font-weight: 700;
-  font-size: 21px;
-  line-height: 30px;
-  display: block;
-  width: 240px;
-  min-height: 64px;
-  border: 0;
-  padding-left: 22px;
-  margin-left: 0;
-}
-
-.services-item-link:hover {
-  background-color: #293449;
-  color: white;
-  font-weight: 700;
-  font-size: 21px;
-  line-height: 30px;
 }
 
 .company-info {
@@ -888,17 +853,21 @@ menu-basket-link {
 
 .company {
   display: flex;
-  justify-content: space-between;
   margin-bottom: 85px;
+
+  justify-content: space-between;
 }
 
 .service-delivery {
+  display: inline-block;
+  padding-right: 0;
+  padding-bottom: 100px;
+  padding-left: 77px;
+  width: 630px;
+  background-color: #f1f7fa;
   background-image: url(../img/services-delivery.png);
+  background-position: 220px 55px;
   background-repeat: no-repeat;
-  background-position: 210px 35px;
-  padding-right: 500px;
-  padding-left: 55px;
-  height: 100%;
 }
 
 .delivery-about-description {
@@ -909,14 +878,6 @@ menu-basket-link {
   width: 177px;
 }
 
-.services-item-link:active {
-  background-color: white;
-  color: black;
-  font-weight: 700;
-  font-size: 21px;
-  line-height: 30px;
-}
-
 .company-delivery-link {
   color: black;
   font-size: 18px;
@@ -925,15 +886,18 @@ menu-basket-link {
 
 .info-customers {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
   margin-bottom: 148px;
+
+  justify-content: space-between;
+  justify-content: space-between;
 }
 
 .footer-contacts-address {
+  width: 330px;
   color: white;
   font-size: 18px;
   line-height: 24px;
-  width: 330px;
 }
 
 .footer-shop-link:hover,
@@ -951,6 +915,7 @@ menu-basket-link {
 
 .section {
   display: flex;
+
   justify-content: space-between;
 }
 
@@ -961,32 +926,38 @@ menu-basket-link {
 }
 
 .navigation-footer-item-link {
+  margin-left: 58px;
   color: white;
   font-size: 18px;
   line-height: 24px;
-  margin-left: 58px;
 }
 
 .products-title {
+  margin-bottom: 22px;
+  padding-top: 29px;
+  padding-bottom: 29px;
+  padding-left: 30px;
   background-color: #f4f7f9;
   color: #32425c;
   text-transform: uppercase;
+  font-weight: 400;
   font-size: 30px;
   line-height: 30px;
 }
 
 .filter-topbar {
+  margin-top: -45px;
+  padding-top: 13px;
+  padding-right: 150px;
+  padding-bottom: 13px;
+  padding-left: 11px;
   background-color: #f7f3ec;
   text-transform: uppercase;
   font-weight: 400;
   font-style: normal;
   font-size: 13px;
-  font-family: "ptsans", Arial, sans-serif;
+  font-family: 'ptsans', Arial, sans-serif;
   line-height: 18px;
-}
-
-.services-list {
-  padding-left: 0;
 }
 
 .show-items {
@@ -996,7 +967,7 @@ menu-basket-link {
   font-weight: 400;
   font-style: normal;
   font-size: 13px;
-  font-family: "ptsans", Arial, sans-serif;
+  font-family: 'ptsans', Arial, sans-serif;
   line-height: 18px;
 }
 
@@ -1005,7 +976,7 @@ menu-basket-link {
   font-weight: 700;
   font-style: normal;
   font-size: 17px;
-  font-family: "ptsans", Arial, sans-serif;
+  font-family: 'ptsans', Arial, sans-serif;
   line-height: 30px;
 }
 
@@ -1015,7 +986,7 @@ menu-basket-link {
   font-weight: 700;
   font-style: normal;
   font-size: 17px;
-  font-family: "ptsans", Arial, sans-serif;
+  font-family: 'ptsans', Arial, sans-serif;
   line-height: 30px;
 }
 
@@ -1025,7 +996,7 @@ menu-basket-link {
   font-weight: 400;
   font-style: normal;
   font-size: 15px;
-  font-family: "ptsans", Arial, sans-serif;
+  font-family: 'ptsans', Arial, sans-serif;
   line-height: 20px;
 }
 
@@ -1034,7 +1005,7 @@ menu-basket-link {
 .price-runner {
   background-color: #f7f3ec;
   font-size: 17px;
-  font-family: "ptsans", Arial, sans-serif;
+  font-family: 'ptsans', Arial, sans-serif;
   line-height: 18px;
 }
 
@@ -1049,10 +1020,10 @@ menu-basket-link {
 .copyright-company,
 .feedback,
 .copyright {
+  width: 240px;
   color: white;
   font-size: 16px;
   line-height: 18px;
-  width: 240px;
 }
 
 .feedback-mail,
@@ -1065,6 +1036,15 @@ menu-basket-link {
 .goods-catalog-items-list,
 .price-filter-range {
   background-color: #f7f3ec;
+}
+
+.goods-catalog-items-list {
+  display: flex;
+  margin-right: 0;
+  margin-left: 240px;
+  width: 700px;
+
+  flex-wrap: wrap;
 }
 
 .footer-bottom,
@@ -1081,15 +1061,15 @@ menu-basket-link {
 .brands-popular,
 .goods-popular {
   display: flex;
+  margin-bottom: 21px;
   background-color: #f9f5f0;
+
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 21px;
 }
 
-.brands-popular {}
-
 .cart-adding-content {
+  display: none;
   font-size: 30px;
   line-height: 30px;
 }
@@ -1126,7 +1106,7 @@ menu-basket-link {
   border: 2px solid #d7dcde;
   color: #dee3e4;
   font-size: 13px;
-  font-family: "ptsans", Arial, sans-serif;
+  font-family: 'ptsans', Arial, sans-serif;
   line-height: 18px;
 }
 
@@ -1154,11 +1134,12 @@ menu-basket-link {
 .page-header {
   display: flex;
   flex-direction: column;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 60px;
   padding: 0;
   /* Временно для сетки */
   background-color: #f3f7f8;
+
   justify-content: space-between;
 }
 
@@ -1180,11 +1161,12 @@ menu-basket-link {
 }
 
 .navigation-list {
+  display: flex;
   margin-top: 26px;
   margin-bottom: 60px;
-  background-color: #32425c;
   padding-left: 0;
-  display: flex;
+  background-color: #32425c;
+
   align-items: center;
   justify-content: space-between;
 }
@@ -1194,17 +1176,24 @@ menu-basket-link {
   width: 100%
 }
 
-.goods-item {
+.goods-item,
+.goods-item-catalog {
   margin-right: 20px;
-  height: auto;
   margin-bottom: 21px;
+  height: auto;
 }
 
-.goods-item:nth-child(1) {
+.goods-item:nth-child(1),
+.goods-item-catalog:nth-child(1),
+.goods-item-catalog:nth-child(4),
+.goods-item-catalog:nth-child(7) {
   margin-left: 0;
 }
 
-.goods-item:nth-child(4) {
+.goods-item:nth-child(4),
+.goods-item-catalog:nth-child(3),
+.goods-item-catalog:nth-child(6),
+.goods-item-catalog:nth-child(9) {
   margin-right: 0;
 }
 
@@ -1221,11 +1210,10 @@ menu-basket-link {
   margin-bottom: 8px;
   margin-left: 77px;
   color: #999;
-  color: #a9a9a9;
   text-align: center;
   text-decoration: line-through;
   font-weight: 700;
-  font-family: 'PTSans', "Arial", sans-serif;
+  font-family: 'PTSans', 'Arial', sans-serif;
 }
 
 .new-price {
@@ -1240,7 +1228,7 @@ menu-basket-link {
   color: white;
   text-align: center;
   font-weight: 700;
-  font-family: 'PTSans', "Arial", sans-serif;
+  font-family: 'PTSans', 'Arial', sans-serif;
 }
 
 .buy,
@@ -1249,8 +1237,8 @@ menu-basket-link {
   margin: 0 auto;
   margin-bottom: 7px;
   padding-top: 7px;
-  padding-left: 0;
   padding-right: 0;
+  padding-left: 0;
   width: 129px;
   border: 3px solid #63a63e;
   border-radius: 3px;
@@ -1258,7 +1246,7 @@ menu-basket-link {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 14px;
-  font-family: "Cuprum", sans-serif;
+  font-family: 'Cuprum', sans-serif;
   line-height: 18px;
 }
 
@@ -1276,6 +1264,7 @@ menu-basket-link {
 .menu-top-header {
   display: flex;
   min-width: 100;
+
   align-items: center;
 }
 
@@ -1286,6 +1275,7 @@ menu-basket-link {
 
 .menu-head-customers {
   display: flex;
+
   justify-content: space-between;
 }
 
@@ -1305,6 +1295,7 @@ menu-basket-link {
 
 .navigation-footer-list {
   display: flex;
+
   align-items: center;
   justify-content: space-between;
 }
@@ -1319,16 +1310,135 @@ menu-basket-link {
 }
 
 .footer-shop-link {
+  display: list-item;
+  margin-left: 59px;
   color: #fdc762;
   font-size: 18px;
   line-height: 24px;
-  display: list-item;
+
   align-items: center;
   justify-content: space-between;
-  margin-left: 59px;
 }
 
 .footer-bottom-social {
   display: flex;
+
   justify-content: space-between;
+}
+
+.user-menu-list {
+  display: inline-flex;
+  flex-direction: column;
+  padding-top: 46px;
+}
+
+.user-menu-button {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-top: 11px;
+  padding-right: 68px;
+  padding-bottom: 11px;
+  padding-left: 47px;
+  background-color: white;
+  color: black;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.breadcrumbs {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.filter {
+  display: block;
+  margin-top: 0;
+  width: 220px;
+}
+
+.sort-list {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 10px 0 10px 48px;
+  width: 500px;
+
+  justify-content: space-between;
+}
+
+.goods-list-catalog {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.main-catalog {
+  display: flex;
+  flex-direction: row
+}
+
+.filter-topbar,
+.price-filter {
+  border-radius: 3px;
+}
+
+.page-button {
+  display: block;
+  padding-top: 9px;
+  padding-right: 15px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  color: black;
+  font-size: 13px;
+}
+
+.button-list {
+  display: flex;
+  margin-left: 250px;
+  width: 245px;
+
+  justify-content: space-between;
+}
+
+.services-slider {
+  padding-bottom: 100px;
+}
+
+.service-items {
+  display: block;
+  padding-top: 20px;
+  padding-right: 33px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  width: 200px;
+  background-color: #32425c;
+  color: white;
+  font-size: 21px;
+  font-family: 'Cuprum', 'Arial', sans-serif;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.service-items:hover {
+  background-color: #293449;
+}
+
+.radio-1,
+.radio-2,
+.radio-3 {
+  display: none;
+}
+
+.service-items:active {
+  background-color: white;
+  color: #32425c;
+}
+
+.services-slider {
+  display: flex;
+  flex-direction: row;
 }
