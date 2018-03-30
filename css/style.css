@@ -362,13 +362,13 @@
   margin-left: 24px;
   padding-top: 10px;
   padding-right: 0;
-  vertical-align: middle;
   padding-bottom: 10px;
   padding-left: 0;
   width: 135px;
   border-radius: 3px;
   background-color: rgba(0, 0, 0, 0.1);
   color: white;
+  vertical-align: middle;
   text-align: center;
   text-transform: uppercase;
   font-size: 14px;
@@ -1294,18 +1294,18 @@
   border-radius: 3px;
   background: #ee3643;
   color: white;
+  vertical-align: middle;
   text-align: center;
   font-weight: 700;
   font-family: 'PTSans', 'Arial', sans-serif;
-  vertical-align: middle;
 }
 
 .buy,
 .bookmark {
   display: block;
   margin-right: auto;
-  margin-left: auto;
   margin-bottom: 7px;
+  margin-left: auto;
   padding-top: 7px;
   padding-right: 0;
   padding-left: 0;
@@ -1535,11 +1535,11 @@
   position: absolute;
   top: -1px;
   right: -1px;
+  z-index: 20;
+  overflow: hidden;
   width: 60px;
   height: 60px;
   text-indent: -1000px;
-  overflow: hidden;
-  z-index: 20;
 }
 
 .flag-new {
