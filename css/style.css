@@ -692,10 +692,6 @@
   background-color: white;
 }
 
-.goods-image img {
-  min-width: 100%;
-}
-
 .goods-item:hover,
 .goods-item-catalog:hover,
 .brands-item-logo:hover {
@@ -1290,10 +1286,10 @@
   margin-right: 37px;
   margin-bottom: 22px;
   margin-left: 44px;
-  padding-top: 7px;
-  padding-right: 37px;
-  padding-bottom: 7px;
-  padding-left: 37px;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
   width: 80px;
   border-radius: 3px;
   background: #ee3643;
@@ -1301,6 +1297,7 @@
   text-align: center;
   font-weight: 700;
   font-family: 'PTSans', 'Arial', sans-serif;
+  vertical-align: middle;
 }
 
 .buy,
@@ -1532,4 +1529,19 @@
   display: flex;
 
   justify-content: space-between;
+}
+
+.flag {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  width: 60px;
+  height: 60px;
+  text-indent: -1000px;
+  overflow: hidden;
+  z-index: 20;
+}
+
+.flag-new {
+  background: url("../img/new-flag.png") no-repeat 0 0;
 }
