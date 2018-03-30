@@ -117,21 +117,6 @@
         <h2 class="products-title">Перфораторы</h2>
       </section>
 
-      <section class="goods-catalog">
-        <div class="goods-catalog-items goods-catalog-items-list">
-          <h3 class="side-topbar">Сортировка:</h3>
-          <ul class="sort-list">
-            <li class="list-style sort-item">
-              <a class="link-page sort-option" href="#">По&nbsp;цене</a></li>
-            <li class="list-style sort-item">
-              <a class="link-page sort-option" href="#">По&nbsp;типу</a>
-            </li>
-            <li class="list-style sort-item">
-              <a class="link-page sort-option" href="#">По&nbsp;функционалу</a>
-            </li>
-          </ul>
-        </div>
-      </section>
 
       <div class="main-catalog">
 
@@ -143,8 +128,13 @@
               <input class="price-filter-range" type="range" min="0" max="30000" step="500" value="15000">
             </div>
             <div class="price-control">
-              <input class="price-min" type="text" name="price-min" value="0">
-              <input class="price-max" type="text" name="price-max" value="30000">
+              <div class="price-min-control">
+                <input class="price-min" type="text" name="price-min" value="0">
+              </div>
+              <div class="sort price">-</div>
+              <div class="price-max-control">
+                <input class="price-max" type="text" name="price-max" value="30000">
+              </div>
             </div>
           </fieldset>
 
@@ -186,129 +176,143 @@
           <button class="show-items" type="submit">Показать</button>
         </form>
 
-
-
-        <section class="list-style goods-list-catalog">
-
-          <div class="goods-item-catalog">
-            <div class="item-block-catalog">
-              <div class="actions">
-                <a class="link-page buy" href="#">Купить</a>
-                <a class="link-page bookmark" href="#">В&nbsp;закладки</a>
-              </div>
-              <img class="goods-image" src="img/9000.png" alt="Бош БФГ" width="189" height="116">
-              <a class="link-page goods-perforator" href="#">Перфоратор BOSH BFG 9000</a>
-              <del class="old-price">32500 Р.</del>
-              <ins class="new-price">25500 Р.</ins>
+        <div class="sorting-block">
+          <section class="goods-catalog">
+            <div class="goods-catalog-items goods-catalog-items-list">
+              <h3 class="side-topbar">Сортировка:</h3>
+              <ul class="sort-list">
+                <li class="list-style sort-item">
+                  <a class="link-page sort-option" href="#">По&nbsp;цене</a></li>
+                <li class="list-style sort-item">
+                  <a class="link-page sort-option" href="#">По&nbsp;типу</a>
+                </li>
+                <li class="list-style sort-item">
+                  <a class="link-page sort-option" href="#">По&nbsp;функционалу</a>
+                </li>
+              </ul>
             </div>
-          </div>
+          </section>
 
-          <div class="goods-item-catalog">
-            <div class="item-block-catalog">
-              <div class="actions">
-                <a class="link-page buy" href="#">Купить</a>
-                <a class="link-page bookmark" href="#">В&nbsp;закладки</a>
+          <section class="list-style goods-list-catalog">
+
+            <div class="goods-item-catalog">
+              <div class="item-block-catalog">
+                <div class="actions">
+                  <a class="link-page buy" href="#">Купить</a>
+                  <a class="link-page bookmark" href="#">В&nbsp;закладки</a>
+                </div>
+                <img class="goods-image" src="img/9000.png" alt="Бош БФГ" width="189" height="116">
+                <a class="link-page goods-perforator" href="#">Перфоратор BOSH BFG 9000</a>
+                <del class="old-price">32500 Р.</del>
+                <ins class="new-price">25500 Р.</ins>
               </div>
-              <img class="goods-image" src="img/6000.png" alt="Бош БФГ" width="189" height="116">
-              <a class="link-page goods-perforator" href="#">Перфоратор BOSH BFG 6000</a>
-              <del class="old-price">30500 Р.</del>
-              <ins class="new-price">25500 Р.</ins>
             </div>
-          </div>
 
-          <div class="goods-item-catalog">
-            <div class="item-block-catalog">
-              <div class="actions">
-                <a class="link-page buy" href="#">Купить</a>
-                <a class="link-page bookmark" href="#">В&nbsp;закладки</a>
+            <div class="goods-item-catalog">
+              <div class="item-block-catalog">
+                <div class="actions">
+                  <a class="link-page buy" href="#">Купить</a>
+                  <a class="link-page bookmark" href="#">В&nbsp;закладки</a>
+                </div>
+                <img class="goods-image" src="img/6000.png" alt="Бош БФГ" width="189" height="116">
+                <a class="link-page goods-perforator" href="#">Перфоратор BOSH BFG 6000</a>
+                <del class="old-price">30500 Р.</del>
+                <ins class="new-price">25500 Р.</ins>
               </div>
-              <img class="goods-image" src="img/2000-3000.png" alt="Бош БФГ" width="189" height="116">
-              <a class="link-page goods-perforator" href="#">Перфоратор BOSH BFG 2000</a>
-              <div class="old-price"></div>
-              <ins class="new-price">12500 Р.</ins>
             </div>
-          </div>
 
-          <div class="goods-item-catalog">
-            <div class="item-block-catalog">
-              <div class="actions">
-                <a class="link-page buy" href="#">Купить</a>
-                <a class="link-page bookmark" href="#">В&nbsp;закладки</a>
+            <div class="goods-item-catalog">
+              <div class="item-block-catalog">
+                <div class="actions">
+                  <a class="link-page buy" href="#">Купить</a>
+                  <a class="link-page bookmark" href="#">В&nbsp;закладки</a>
+                </div>
+                <img class="goods-image" src="img/2000-3000.png" alt="Бош БФГ" width="189" height="116">
+                <a class="link-page goods-perforator" href="#">Перфоратор BOSH BFG 2000</a>
+                <div class="old-price"></div>
+                <ins class="new-price">12500 Р.</ins>
               </div>
-              <img class="goods-image" src="img/9000.png" alt="Бош БФГ" width="189" height="116">
-              <a class="link-page goods-perforator" href="#">Перфоратор BOSH BFG 9000</a>
-              <del class="old-price">32500 Р.</del>
-              <ins class="new-price">25500 Р.</ins>
             </div>
-          </div>
 
-          <div class="goods-item-catalog">
-            <div class="item-block-catalog">
-              <div class="actions">
-                <a class="link-page buy" href="#">Купить</a>
-                <a class="link-page bookmark" href="#">В&nbsp;закладки</a>
+            <div class="goods-item-catalog">
+              <div class="item-block-catalog">
+                <div class="actions">
+                  <a class="link-page buy" href="#">Купить</a>
+                  <a class="link-page bookmark" href="#">В&nbsp;закладки</a>
+                </div>
+                <img class="goods-image" src="img/9000.png" alt="Бош БФГ" width="189" height="116">
+                <a class="link-page goods-perforator" href="#">Перфоратор BOSH BFG 9000</a>
+                <del class="old-price">32500 Р.</del>
+                <ins class="new-price">25500 Р.</ins>
               </div>
-              <img class="goods-image" src="img/2000-3000.png" alt="Бош БФГ" width="189" height="116">
-              <a class="link-page goods-perforator" href="#">Перфоратор BOSH BFG 2000</a>
-              <div class="old-price"></div>
-              <ins class="new-price">12500 Р.</ins>
             </div>
-          </div>
 
-          <div class="goods-item-catalog">
-            <div class="item-block-catalog">
-              <div class="actions">
-                <a class="link-page buy" href="#">Купить</a>
-                <a class="link-page bookmark" href="#">В&nbsp;закладки</a>
+            <div class="goods-item-catalog">
+              <div class="item-block-catalog">
+                <div class="actions">
+                  <a class="link-page buy" href="#">Купить</a>
+                  <a class="link-page bookmark" href="#">В&nbsp;закладки</a>
+                </div>
+                <img class="goods-image" src="img/2000-3000.png" alt="Бош БФГ" width="189" height="116">
+                <a class="link-page goods-perforator" href="#">Перфоратор BOSH BFG 2000</a>
+                <div class="old-price"></div>
+                <ins class="new-price">12500 Р.</ins>
               </div>
-              <img class="goods-image" src="img/6000.png" alt="Бош БФГ" width="189" height="116">
-              <a class="link-page goods-perforator" href="#">Перфоратор BOSH BFG 6000</a>
-              <del class="old-price">30500 Р.</del>
-              <ins class="new-price">25500 Р.</ins>
             </div>
-          </div>
 
-          <div class="goods-item-catalog">
-            <div class="item-block-catalog">
-              <div class="actions">
-                <a class="link-page buy" href="#">Купить</a>
-                <a class="link-page bookmark" href="#">В&nbsp;закладки</a>
+            <div class="goods-item-catalog">
+              <div class="item-block-catalog">
+                <div class="actions">
+                  <a class="link-page buy" href="#">Купить</a>
+                  <a class="link-page bookmark" href="#">В&nbsp;закладки</a>
+                </div>
+                <img class="goods-image" src="img/6000.png" alt="Бош БФГ" width="189" height="116">
+                <a class="link-page goods-perforator" href="#">Перфоратор BOSH BFG 6000</a>
+                <del class="old-price">30500 Р.</del>
+                <ins class="new-price">25500 Р.</ins>
               </div>
-              <img class="goods-image" src="img/2000-3000.png" alt="Бош БФГ" width="189" height="116">
-              <a class="link-page goods-perforator" href="#">Перфоратор BOSH BFG 2000</a>
-              <div class="old-price"></div>
-              <ins class="new-price">12500 Р.</ins>
             </div>
-          </div>
 
-          <div class="goods-item-catalog">
-            <div class="item-block-catalog">
-              <div class="actions">
-                <a class="link-page buy" href="#">Купить</a>
-                <a class="link-page bookmark" href="#">В&nbsp;закладки</a>
+            <div class="goods-item-catalog">
+              <div class="item-block-catalog">
+                <div class="actions">
+                  <a class="link-page buy" href="#">Купить</a>
+                  <a class="link-page bookmark" href="#">В&nbsp;закладки</a>
+                </div>
+                <img class="goods-image" src="img/2000-3000.png" alt="Бош БФГ" width="189" height="116">
+                <a class="link-page goods-perforator" href="#">Перфоратор BOSH BFG 2000</a>
+                <div class="old-price"></div>
+                <ins class="new-price">12500 Р.</ins>
               </div>
-              <img class="goods-image" src="img/6000.png" alt="Бош БФГ" width="189" height="116">
-              <a class="link-page goods-perforator" href="#">Перфоратор BOSH BFG 6000</a>
-              <del class="old-price">30500 Р.</del>
-              <ins class="new-price">25500 Р.</ins>
             </div>
-          </div>
 
-          <div class="goods-item-catalog">
-            <div class="item-block-catalog">
-              <div class="actions">
-                <a class="link-page buy" href="#">Купить</a>
-                <a class="link-page bookmark" href="#">В&nbsp;закладки</a>
+            <div class="goods-item-catalog">
+              <div class="item-block-catalog">
+                <div class="actions">
+                  <a class="link-page buy" href="#">Купить</a>
+                  <a class="link-page bookmark" href="#">В&nbsp;закладки</a>
+                </div>
+                <img class="goods-image" src="img/6000.png" alt="Бош БФГ" width="189" height="116">
+                <a class="link-page goods-perforator" href="#">Перфоратор BOSH BFG 6000</a>
+                <del class="old-price">30500 Р.</del>
+                <ins class="new-price">25500 Р.</ins>
               </div>
-              <img class="goods-image" src="img/2000-3000.png" alt="Бош БФГ" width="189" height="116">
-              <a class="link-page goods-perforator" href="#">Перфоратор BOSH BFG 2000</a>
-              <div class="old-price"></div>
-              <ins class="new-price">12500 Р.</ins>
             </div>
-          </div>
 
-        </section>
-
+            <div class="goods-item-catalog">
+              <div class="item-block-catalog">
+                <div class="actions">
+                  <a class="link-page buy" href="#">Купить</a>
+                  <a class="link-page bookmark" href="#">В&nbsp;закладки</a>
+                </div>
+                <img class="goods-image" src="img/2000-3000.png" alt="Бош БФГ" width="189" height="116">
+                <a class="link-page goods-perforator" href="#">Перфоратор BOSH BFG 2000</a>
+                <div class="old-price"></div>
+                <ins class="new-price">12500 Р.</ins>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
 
 
@@ -330,14 +334,12 @@
       </div>
     </div>
 
-  
-  
-  <div class="perfrators-subject">
-    <div class="container">
-      <h3 class="perforators-about">Пара слов о&nbsp;перфораторах</h3>
-      <p class="perforators-about-description">Перфоратор универсальный строительный инструмент. Предназначен для сверления и&nbsp;долбления отверстий в&nbsp;кирпиче, бетоне и&nbsp;камне. Существуют электромеханические и&nbsp;пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и&nbsp;отбойного молотка. В&nbsp;ассортиментном ряду есть выбор трехрежимников в&nbsp;одном устройстве будут совмещены отбойный молоток и&nbsp;ударная дрель.</p>
+    <div class="perfrators-subject">
+      <div class="container">
+        <h3 class="perforators-about">Пара слов о&nbsp;перфораторах</h3>
+        <p class="perforators-about-description">Перфоратор универсальный строительный инструмент. Предназначен для сверления и&nbsp;долбления отверстий в&nbsp;кирпиче, бетоне и&nbsp;камне. Существуют электромеханические и&nbsp;пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и&nbsp;отбойного молотка. В&nbsp;ассортиментном ряду есть выбор трехрежимников в&nbsp;одном устройстве будут совмещены отбойный молоток и&nbsp;ударная дрель.</p>
+      </div>
     </div>
-  </div>
   </main>
 
   <footer class="footer">
@@ -345,7 +347,7 @@
       <div class="container">
         <div class="navigation-basic">
           <div class="logo logo-footer">
-            <a class="link-page logo-button logo-button-footer"href="index.html">Техномарт</a>
+            <a class="link-page logo-button logo-button-footer" href="index.html">Техномарт</a>
           </div>
           <div class="navigation footer-navigation">
             <ul class="list-style navigation-footer-list">

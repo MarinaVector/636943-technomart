@@ -43,7 +43,7 @@
   line-height: 17px;
 }
 
- .user-submenu-link {
+.user-submenu-link {
   color: #32425c;
   text-decoration: underline;
   font-size: 16px;
@@ -85,15 +85,15 @@
 }
 
 .logo-button-footer {
-       font-size: 30px;
   display: inline-block;
-  vertical-align: middle;
-   padding-top: 20px;
+  padding-top: 20px;
   padding-right: 27px;
   padding-bottom: 20px;
   padding-left: 27px;
-  }
-    
+  vertical-align: middle;
+  font-size: 30px;
+}
+
 .logo-footer {
   margin-right: 75px;
 }
@@ -140,7 +140,7 @@
 }
 
 .menu-order-link:hover {
-    padding-top: 12px;
+  padding-top: 12px;
   padding-right: 22px;
   padding-bottom: 12px;
   padding-left: 20px;
@@ -252,9 +252,9 @@
 
 .menu-search-control {
   position: relative;
+  margin-left: 10px;
   padding: 0;
   min-height: 42px;
-  margin-left: 10px;
   width: 200px;
   border: 0;
   background-color: #32425c;
@@ -324,12 +324,12 @@
 }
 
 .breadcrumbs-link {
+  padding-left: 15px;
   color: black;
   text-transform: uppercase;
   font-size: 13px;
   font-family: 'ptsans', 'Arial', sans-serif;
   line-height: 18px;
-  padding-left: 15px;
 }
 
 .tooling,
@@ -483,6 +483,7 @@
 .credit-button-link {
   background-color: #ee3643;
   color: white;
+  vertical-align: middle;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 18px;
@@ -511,6 +512,11 @@
   border-radius: 3px;
   vertical-align: middle;
   text-align: center;
+}
+
+.brands-list-link {
+  padding-right: 72px;
+  padding-left: 72px;
 }
 
 .details,
@@ -747,6 +753,10 @@
   line-height: 18px;
 }
 
+.side-topbar {
+  padding-left: 17px;
+}
+
 .sort-option {
   border-bottom: 1px dashed #ec3444;
   color: #acaaa5;
@@ -873,7 +883,7 @@
   padding-left: 77px;
   width: 630px;
   background-color: #f1f7fa;
-  background-image: url("../img/services-delivery.png");
+  background-image: url('../img/services-delivery.png');
   background-position: 220px 55px;
   background-repeat: no-repeat;
   vertical-align: middle;
@@ -941,7 +951,7 @@
 }
 
 .products-title {
-  margin-bottom: 22px;
+  margin-bottom: 0;
   padding-top: 29px;
   padding-bottom: 29px;
   padding-left: 30px;
@@ -954,7 +964,6 @@
 }
 
 .filter-topbar {
-  margin-top: -45px;
   padding-top: 13px;
   padding-right: 150px;
   padding-bottom: 13px;
@@ -968,8 +977,14 @@
 }
 
 .show-items {
+  margin-top: 66px;
+  padding-top: 12px;
+  padding-right: 39px;
+  padding-bottom: 12px;
+  padding-left: 39px;
   border: 1px solid #e5e5e5;
   background-color: white;
+  vertical-align: middle;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 13px;
@@ -1003,13 +1018,55 @@
   line-height: 20px;
 }
 
+.checkbox,
+.radio-button {
+  display: block;
+  padding-top: 25px;
+}
+
 .price-min,
-.price-max,
-.price-runner {
+.price-max {
+  display: block;
+  min-height: 35px;
+  width: 95px;
+  border-radius: 3px;
   background-color: #f7f3ec;
+  vertical-align: middle;
+  text-align: center;
   font-size: 17px;
   font-family: 'ptsans', Arial, sans-serif;
   line-height: 18px;
+}
+
+.price-min {
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+.price-min {
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+.sort price {
+  text-align: center;
+  font-size: 17px;
+  font-family: 'ptsans', Arial, sans-serif;
+  line-height: 18px;
+}
+
+.price-control {
+  display: flex;
+  margin-top: 10px;
+
+  justify-content: space-between;
+}
+
+.price-filter-range {
+  display: block;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-color: #f7f3ec;
 }
 
 .sidebar,
@@ -1042,15 +1099,14 @@
   line-height: 18px;
 }
 
-.goods-catalog-items-list,
-.price-filter-range {
+.goods-catalog-items-list {
+  border-radius: 3px;
   background-color: #f7f3ec;
 }
 
 .goods-catalog-items-list {
   display: flex;
   margin-right: 0;
-  margin-left: 240px;
   width: 700px;
 
   flex-wrap: wrap;
@@ -1144,8 +1200,8 @@
   display: flex;
   flex-direction: column;
   margin-top: 0;
-    padding: 0;
-    background-color: #f3f7f8;
+  padding: 0;
+  background-color: #f3f7f8;
 
   justify-content: space-between;
 }
@@ -1181,14 +1237,21 @@
 .goods-list {
   display: flex;
   width: 100%;
-      }
+}
 
 .goods-item,
 .goods-item-catalog {
   margin-right: 20px;
-  margin-bottom: 21px;
   height: auto;
   border: solid 1px #eaeaea;
+}
+
+.goods-item {
+  margin-bottom: 21px;
+}
+
+.goods-item-catalog {
+  margin-top: 21px;
 }
 
 .goods-item:nth-child(1),
@@ -1208,7 +1271,7 @@
 .goods-perforator {
   display: block;
   margin-bottom: 16px;
-    padding-top: 0;
+  padding-top: 0;
   padding-right: 24px;
   padding-bottom: 0;
   padding-left: 25px;
@@ -1260,7 +1323,7 @@
   text-transform: uppercase;
   font-weight: normal;
   font-size: 14px;
-    line-height: 18px;
+  line-height: 18px;
 }
 
 .bookmark {
@@ -1307,8 +1370,8 @@
 }
 
 .navigation-footer-list {
-  padding-top: 20px;
   display: flex;
+  padding-top: 20px;
 
   align-items: center;
   justify-content: space-between;
@@ -1335,9 +1398,9 @@
 }
 
 .footer-bottom-social {
+  display: flex;
   padding-top: 25px;
   padding-bottom: 24px;
-  display: flex;
 
   justify-content: space-between;
 }
@@ -1345,7 +1408,7 @@
 .user-menu-list {
   display: inline-flex;
   flex-direction: column;
-  padding-top: 46px;
+  padding-top: 40px;
 }
 
 .user-menu-button {
@@ -1369,8 +1432,7 @@
 }
 
 .filter {
-  display: block;
-  margin-top: 0;
+  margin-top: 7px;
   width: 220px;
 }
 
@@ -1381,21 +1443,10 @@
   padding-top: 10px;
   padding-right: 0;
   padding-bottom: 10px;
-  padding-left: 48px;
-  width: 500px;
+  padding-left: 137px;
+  width: 357px;
 
   justify-content: space-between;
-}
-
-.goods-list-catalog {
-  display: flex;
-
-  flex-wrap: wrap;
-}
-
-.main-catalog {
-  display: flex;
-  flex-direction: row
 }
 
 .filter-topbar,
@@ -1417,7 +1468,9 @@
 
 .button-list {
   display: flex;
-  margin-left: 250px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  margin-left: 200px;
   width: 245px;
 
   justify-content: space-between;
@@ -1437,7 +1490,7 @@
   background-color: #32425c;
   color: white;
   font-size: 21px;
-    line-height: 30px;
+  line-height: 30px;
   cursor: pointer;
 }
 
@@ -1459,4 +1512,31 @@
 .services-slider {
   display: flex;
   flex-direction: row;
+}
+
+.goods-list-catalog {
+  display: flex;
+}
+
+.goods-list-catalog {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+}
+
+.sorting-block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 0;
+  margin-left: 20px;
+
+  justify-content: space-around;
+}
+
+.main-catalog {
+  display: flex;
+
+  justify-content: space-between;
 }
