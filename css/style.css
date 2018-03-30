@@ -43,7 +43,7 @@
   line-height: 17px;
 }
 
-.user-submenu-link {
+ .user-submenu-link {
   color: #32425c;
   text-decoration: underline;
   font-size: 16px;
@@ -67,8 +67,7 @@
   color: white;
 }
 
-.logo-button,
-.logo {
+.logo-button {
   display: block;
   background-color: #ee3643;
   color: white;
@@ -86,14 +85,15 @@
 }
 
 .logo-button-footer {
-  padding-top: 17px;
-  padding-right: 41px;
-  padding-bottom: 17px;
-  padding-left: 41px;
-  font-size: 30px;
-  line-height: 30px;
-}
-
+       font-size: 30px;
+  display: inline-block;
+  vertical-align: middle;
+   padding-top: 20px;
+  padding-right: 27px;
+  padding-bottom: 20px;
+  padding-left: 27px;
+  }
+    
 .logo-footer {
   margin-right: 75px;
 }
@@ -140,7 +140,10 @@
 }
 
 .menu-order-link:hover {
-  padding: 12px 22px 12px 20px;
+    padding-top: 12px;
+  padding-right: 22px;
+  padding-bottom: 12px;
+  padding-left: 20px;
   background-color: #5cbc2c;
 }
 
@@ -251,7 +254,8 @@
   position: relative;
   padding: 0;
   min-height: 42px;
-  width: 263px;
+  margin-left: 10px;
+  width: 200px;
   border: 0;
   background-color: #32425c;
 }
@@ -286,7 +290,7 @@
   padding-left: 45px;
 }
 
-menu-basket-link {
+.menu-basket-link {
   padding-top: 12px;
   padding-right: 0;
   padding-bottom: 12px;
@@ -325,6 +329,7 @@ menu-basket-link {
   font-size: 13px;
   font-family: 'ptsans', 'Arial', sans-serif;
   line-height: 18px;
+  padding-left: 15px;
 }
 
 .tooling,
@@ -446,6 +451,7 @@ menu-basket-link {
   padding-bottom: 0;
   padding-left: 28px;
   color: #32425c;
+  vertical-align: middle;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 30px;
@@ -487,7 +493,10 @@ menu-basket-link {
   bottom: 23px;
   left: 25px;
   z-index: 1;
-  padding: 8px 40px;
+  padding-top: 8px;
+  padding-right: 40px;
+  padding-bottom: 8px;
+  padding-left: 40px;
   border-radius: 3px;
 }
 
@@ -592,7 +601,8 @@ menu-basket-link {
 .warranty-slider,
 .credit-slider,
 .letter-popup,
-.map-popup {
+.map-popup,
+.cart-adding {
   display: none;
 }
 
@@ -628,7 +638,7 @@ menu-basket-link {
 }
 
 .item-block:hover .actions,
-.item-block-catalog :hover .actions {
+.item-block-catalog:hover .actions {
   visibility: visible;
 }
 
@@ -646,7 +656,7 @@ menu-basket-link {
   margin-bottom: 20px;
   width: 220px;
   height: 145px;
-  border: 1px solid #e5e5e5;
+  border: solid 1px #eaeaea;
 }
 
 .brands-item-logo:nth-child(4) {
@@ -676,7 +686,7 @@ menu-basket-link {
   padding-top: 40px;
   min-height: 140px;
   width: 100%;
-  background-color: #ffffff;
+  background-color: white;
 }
 
 .goods-image img {
@@ -732,7 +742,6 @@ menu-basket-link {
 .page-button {
   text-transform: uppercase;
   font-weight: 400;
-  font-style: normal;
   font-size: 13px;
   font-family: 'ptsans', Arial, sans-serif;
   line-height: 18px;
@@ -812,7 +821,6 @@ menu-basket-link {
 .company-tehnomart-description,
 .delivery-conditions {
   font-weight: 400;
-  font-style: normal;
   font-size: 13px;
   font-family: 'ptsans', Arial, sans-serif;
   line-height: 24px;
@@ -865,9 +873,10 @@ menu-basket-link {
   padding-left: 77px;
   width: 630px;
   background-color: #f1f7fa;
-  background-image: url(../img/services-delivery.png);
+  background-image: url("../img/services-delivery.png");
   background-position: 220px 55px;
   background-repeat: no-repeat;
+  vertical-align: middle;
 }
 
 .delivery-about-description {
@@ -889,7 +898,6 @@ menu-basket-link {
   flex-direction: row;
   margin-bottom: 148px;
 
-  justify-content: space-between;
   justify-content: space-between;
 }
 
@@ -954,7 +962,6 @@ menu-basket-link {
   background-color: #f7f3ec;
   text-transform: uppercase;
   font-weight: 400;
-  font-style: normal;
   font-size: 13px;
   font-family: 'ptsans', Arial, sans-serif;
   line-height: 18px;
@@ -965,7 +972,6 @@ menu-basket-link {
   background-color: white;
   text-transform: uppercase;
   font-weight: 400;
-  font-style: normal;
   font-size: 13px;
   font-family: 'ptsans', Arial, sans-serif;
   line-height: 18px;
@@ -974,7 +980,6 @@ menu-basket-link {
 .price-filter {
   text-transform: uppercase;
   font-weight: 700;
-  font-style: normal;
   font-size: 17px;
   font-family: 'ptsans', Arial, sans-serif;
   line-height: 30px;
@@ -984,7 +989,6 @@ menu-basket-link {
 .supply-title {
   text-transform: uppercase;
   font-weight: 700;
-  font-style: normal;
   font-size: 17px;
   font-family: 'ptsans', Arial, sans-serif;
   line-height: 30px;
@@ -994,7 +998,6 @@ menu-basket-link {
 .radio-button-label {
   text-transform: uppercase;
   font-weight: 400;
-  font-style: normal;
   font-size: 15px;
   font-family: 'ptsans', Arial, sans-serif;
   line-height: 20px;
@@ -1017,10 +1020,16 @@ menu-basket-link {
   border: 0;
 }
 
-.copyright-company,
+.copyright-company {
+  width: 240px;
+  color: white;
+  font-size: 16px;
+  line-height: 18px;
+}
+
 .feedback,
 .copyright {
-  width: 240px;
+  width: 140px;
   color: white;
   font-size: 16px;
   line-height: 18px;
@@ -1135,10 +1144,8 @@ menu-basket-link {
   display: flex;
   flex-direction: column;
   margin-top: 0;
-  margin-bottom: 60px;
-  padding: 0;
-  /* Временно для сетки */
-  background-color: #f3f7f8;
+    padding: 0;
+    background-color: #f3f7f8;
 
   justify-content: space-between;
 }
@@ -1162,7 +1169,7 @@ menu-basket-link {
 
 .navigation-list {
   display: flex;
-  margin-top: 26px;
+  margin-top: 10px;
   margin-bottom: 60px;
   padding-left: 0;
   background-color: #32425c;
@@ -1173,14 +1180,15 @@ menu-basket-link {
 
 .goods-list {
   display: flex;
-  width: 100%
-}
+  width: 100%;
+      }
 
 .goods-item,
 .goods-item-catalog {
   margin-right: 20px;
   margin-bottom: 21px;
   height: auto;
+  border: solid 1px #eaeaea;
 }
 
 .goods-item:nth-child(1),
@@ -1200,7 +1208,10 @@ menu-basket-link {
 .goods-perforator {
   display: block;
   margin-bottom: 16px;
-  padding: 0 24px 0 25px;
+    padding-top: 0;
+  padding-right: 24px;
+  padding-bottom: 0;
+  padding-left: 25px;
   min-height: 40px;
   text-align: center;
 }
@@ -1221,7 +1232,10 @@ menu-basket-link {
   margin-right: 37px;
   margin-bottom: 22px;
   margin-left: 44px;
-  padding: 7px 37px;
+  padding-top: 7px;
+  padding-right: 37px;
+  padding-bottom: 7px;
+  padding-left: 37px;
   width: 80px;
   border-radius: 3px;
   background: #ee3643;
@@ -1234,7 +1248,7 @@ menu-basket-link {
 .buy,
 .bookmark {
   display: block;
-  margin: 0 auto;
+  margin: auto;
   margin-bottom: 7px;
   padding-top: 7px;
   padding-right: 0;
@@ -1246,8 +1260,7 @@ menu-basket-link {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 14px;
-  font-family: 'Cuprum', sans-serif;
-  line-height: 18px;
+    line-height: 18px;
 }
 
 .bookmark {
@@ -1294,6 +1307,7 @@ menu-basket-link {
 }
 
 .navigation-footer-list {
+  padding-top: 20px;
   display: flex;
 
   align-items: center;
@@ -1306,7 +1320,7 @@ menu-basket-link {
 
 .footer-shop-list {
   display: flex;
-  padding-right: 130
+  padding-right: 130px;
 }
 
 .footer-shop-link {
@@ -1321,6 +1335,8 @@ menu-basket-link {
 }
 
 .footer-bottom-social {
+  padding-top: 25px;
+  padding-bottom: 24px;
   display: flex;
 
   justify-content: space-between;
@@ -1349,7 +1365,7 @@ menu-basket-link {
 .breadcrumbs {
   display: flex;
 
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 
 .filter {
@@ -1362,7 +1378,10 @@ menu-basket-link {
   display: flex;
   flex-direction: row;
   margin: 0;
-  padding: 10px 0 10px 48px;
+  padding-top: 10px;
+  padding-right: 0;
+  padding-bottom: 10px;
+  padding-left: 48px;
   width: 500px;
 
   justify-content: space-between;
@@ -1405,7 +1424,7 @@ menu-basket-link {
 }
 
 .services-slider {
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 
 .service-items {
@@ -1418,8 +1437,7 @@ menu-basket-link {
   background-color: #32425c;
   color: white;
   font-size: 21px;
-  font-family: 'Cuprum', 'Arial', sans-serif;
-  line-height: 30px;
+    line-height: 30px;
   cursor: pointer;
 }
 
