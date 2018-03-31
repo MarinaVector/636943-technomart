@@ -79,7 +79,7 @@
 
 .logo-button-header {
   padding-top: 9px;
-  padding-right: 55px;
+  padding-right: 56px;
   padding-bottom: 9px;
   padding-left: 55px;
 }
@@ -162,7 +162,7 @@
 
 .menu-head-info {
   display: block;
-  margin-top: 49px;
+  margin-top: 52px;
   margin-right: 20px;
   margin-bottom: 0;
   margin-left: 55px;
@@ -235,11 +235,13 @@
 .menu-order-link {
   display: block;
   padding-top: 12px;
-  padding-right: 22px;
+  padding-right: 21px;
   padding-bottom: 12px;
-  padding-left: 20px;
+  padding-left: 19px;
   background-color: #63a63e;
   color: white;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .menu {
@@ -248,8 +250,8 @@
 
 .menu-search-control {
   position: relative;
-  margin-left: 10px;
-  padding: 0;
+  margin-left: 2px;
+  padding left: 0;
   min-height: 42px;
   width: 200px;
   border: 0;
@@ -263,40 +265,43 @@
 
 .head-contact-phone {
   padding-top: 10px;
-  padding-right: 49px;
+  padding-right: 48px;
   padding-bottom: 8px;
-  padding-left: 54px;
+  padding-left: 72px;
   border: 3px solid white;
   color: #ee3643;
   font-size: 21px;
   line-height: 21px;
+  margin-left: -23px;
 }
 
 .menu-top-search-box {
   padding-top: 12px;
   padding-right: 0;
   padding-bottom: 12px;
-  padding-left: 49px;
+  padding-left: 0;
 }
 
 .menu-bookmarks-link {
   padding-top: 12px;
   padding-right: 0;
   padding-bottom: 12px;
-  padding-left: 45px;
+  padding-left: 112px;
 }
 
 .menu-basket-link {
   padding-top: 12px;
   padding-right: 0;
   padding-bottom: 12px;
-  padding-left: 50px;
+  padding-left: 0;
 }
 
 .head-contact-address {
   color: #32425c;
   font-size: 14px;
   line-height: 24px;
+  margin-left: -15px;
+  margin-bottom: 12px;
 }
 
 .footer-contacts-phone {
@@ -360,7 +365,7 @@
   display: inline-block;
   margin-right: 0;
   margin-left: 24px;
-  padding-top: 10px;
+  padding-top: 9px;
   padding-right: 0;
   padding-bottom: 10px;
   padding-left: 0;
@@ -445,7 +450,6 @@
 .details,
 .post-feedback {
   display: inline-block;
-  padding-bottom: 0;
   padding-left: 28px;
   color: #32425c;
   vertical-align: middle;
@@ -453,6 +457,17 @@
   font-weight: 400;
   font-size: 30px;
   line-height: 30px;
+}
+
+.goods-popular-title {
+  padding-top: 28px;
+  padding-bottom: 28px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.brands-popular-title {
+  padding-left: 25px;
 }
 
 .company-tehnomart,
@@ -488,20 +503,20 @@
 
 .slider-button {
   position: absolute;
-  bottom: 23px;
+  bottom: 26px;
   left: 25px;
   z-index: 1;
   padding-top: 8px;
-  padding-right: 40px;
-  padding-bottom: 8px;
-  padding-left: 40px;
+  padding-right: 48px;
+  padding-bottom: 9px;
+  padding-left: 48px;
   border-radius: 3px;
 }
 
 .goods-popular-link,
 .brands-list-link {
   display: inline-block;
-  margin-top: 0;
+  margin-top: 10px;
   margin-right: 18px;
   margin-left: 0;
   padding-top: 10px;
@@ -514,6 +529,8 @@
 .brands-list-link {
   padding-right: 72px;
   padding-left: 72px;
+  margin-top: 0;
+  margin-bottom: 3px;
 }
 
 .details,
@@ -536,13 +553,56 @@
   padding-left: 60px;
 }
 
-.goods-popular-link {
-  padding-right: 54px;
-  padding-left: 56px;
+.goods-popular {
+  margin-top: 9px;
+  margin-bottom: 23px;
 }
 
-.brands-item-logo-image {
-  align-items: center;
+.goods-popular-link {
+  padding-right: 52px;
+  padding-left: 56px;
+  margin-top: 0;
+  margin-right: 25px;
+}
+
+.brands-item-logo-image-bosh {
+  margin-top: 54px;
+  margin-left: 46px;
+}
+
+.brands-item-logo-image-makita {
+  margin-top: 51px;
+  margin-left: 48px;
+}
+
+.brands-item-logo-image-dewalt {
+  margin-top: 49px;
+  margin-left: 38px;
+}
+
+.brands-item-logo-image-interskol {
+  margin-top: 59px;
+  margin-left: 19px;
+}
+
+.brands-item-logo-image-hitachi {
+  margin-top: 56px;
+  margin-left: 27px;
+}
+
+.brands-item-logo-image-lg {
+  margin-top: 34px;
+  margin-left: 48px;
+}
+
+.brands-item-logo-image-aeg {
+  margin-top: 23px;
+  margin-left: 37px;
+}
+
+.brands-item-logo-image-metabo {
+  margin-top: 34px;
+  margin-left: 12px;
 }
 
 .slider-button:hover,
@@ -574,8 +634,8 @@
 
 .slide-inscription {
   position: absolute;
-  top: 41px;
-  left: 26px;
+  top: 45px;
+  left: 24px;
   color: white;
   font-size: 18px;
   line-height: 24px;
@@ -672,7 +732,7 @@
 }
 
 .brands {
-  margin-bottom: 86px;
+  margin-bottom: 63px;
 }
 
 .goods-image {
@@ -806,13 +866,13 @@
 }
 
 .services-about {
-  padding-top: 68px;
   padding-left: 0;
   color: black;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 30px;
   line-height: 24px;
+  padding-top: 66px;
 }
 
 .services-about-description,
@@ -853,7 +913,6 @@
 }
 
 .services {
-  min-height: 520px;
   background-color: #f4f8f9;
 }
 
@@ -1118,11 +1177,14 @@
 .brands-popular,
 .goods-popular {
   display: flex;
-  margin-bottom: 21px;
   background-color: #f9f5f0;
 
   justify-content: space-between;
   align-items: center;
+}
+
+.brands-popular {
+  padding-bottom: 6px;
 }
 
 .cart-adding-content {
@@ -1192,15 +1254,11 @@
   display: flex;
   flex-direction: column;
   margin-top: 0;
+  margin-bottom: 59px;
   padding: 0;
   background-color: #f3f7f8;
 
   justify-content: space-between;
-}
-
-.menu-order {
-  width: 150px;
-  background-color: #63a63e;
 }
 
 .menu-head {
@@ -1216,9 +1274,9 @@
 
 .navigation-list {
   display: flex;
-  margin-top: 10px;
+  margin-top: 29px;
   margin-bottom: 60px;
-  padding-left: 0;
+  padding-left: 20px;
   background-color: #32425c;
 
   align-items: center;
@@ -1298,6 +1356,7 @@
   text-align: center;
   font-weight: 700;
   font-family: 'PTSans', 'Arial', sans-serif;
+  margin-bottom: 18px;
 }
 
 .buy,
@@ -1469,17 +1528,13 @@
   justify-content: space-between;
 }
 
-.services-slider {
-  padding-bottom: 60px;
-}
-
 .service-items {
   display: block;
   padding-top: 20px;
-  padding-right: 33px;
-  padding-bottom: 16px;
+  padding-right: 22px;
+  padding-bottom: 14px;
   padding-left: 16px;
-  width: 200px;
+  width: 210px;
   background-color: #32425c;
   color: white;
   font-size: 21px;
@@ -1505,6 +1560,8 @@
 .services-slider {
   display: flex;
   flex-direction: row;
+  padding-left: 0;
+  padding-bottom: 100px;
 }
 
 .goods-list-catalog {
@@ -1546,5 +1603,7 @@
 }
 
 .flag-new {
-  background: url("../img/new-flag.png") no-repeat 0 0;
+  background: url("../img/new-flag.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
