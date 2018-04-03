@@ -283,14 +283,17 @@ menu-search {
 ::-webkit-input-placeholder {
   padding-left: 47px;
   color: white;
+  opacity: 0.5;
 }
 
 ::-moz-placeholder {
   color: white;
+  opacity: 0.5;
 }
 
 :-moz-placeholder {
   color: white;
+  opacity: 0.5;
 }
 
 :-ms-input-placeholder {
@@ -1352,6 +1355,7 @@ menu-search {
   background-color: #32425c;
 
   align-items: baseline;
+  border-bottom: 3px solid #293449;
 }
 
 .goods-list {
@@ -1827,7 +1831,7 @@ menu-search {
   content: "";
 }
 
-.logout-icon {
+i .logout-icon {
   position: absolute;
   top: 15px;
   right: 15px;
@@ -2078,4 +2082,54 @@ menu-search {
   background-repeat: no-repeat;
   content: "";
   opacity: 0.5;
+}
+
+.checkbox .checkbox-label-checked::before {
+  position: absolute;
+  right: 1503px;
+  width: 23px;
+  height: 23px;
+  background-image: url("../img/checkbox-on.svg");
+  background-repeat: no-repeat;
+  content: "";
+  opacity: 0.5;
+}
+
+.checkbox-control[type=checkbox]:checked + .checkbox-label-checked:before {
+  position: absolute;
+  right: 1503px;
+  width: 23px;
+  height: 23px;
+  background-image: url("../img/checkbox-off.svg");
+  background-repeat: no-repeat;
+  content: "";
+  opacity: 0.5;
+}
+
+.radio-button-control {
+  display: none;
+}
+
+.radio-button-label::before {
+  content: "";
+  right: 1503px;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  background-color: white;
+  border: 4px solid #c5c5c5;
+  border-radius: 50px;
+}
+
+.radio-button-control[type=radio]:checked + .radio-button-label:before {
+  position: absolute;
+  content: "\2022";
+  right: 1503px;
+  width: 17px;
+  height: 17px;
+  color: #c5c5c5;
+  border-radius: 50px;
+  font-size: 37px;
+  text-align: center;
+  line-height: 15px;
 }

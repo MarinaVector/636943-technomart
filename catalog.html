@@ -20,7 +20,7 @@
             </div>
             <div class="menu-top menu-top-header">
               <form class="menu-search" action="#">
-                <input class="menu-search-control" id="menu-top-search-box" name="search" type="text" placeholder="Поиск">
+                <input class="menu-search-control" id="menu-top-search-box" name="search" type="text" placeholder="Поиск:">
               </form>
               <div class="menu-bookmarks">
                 <a class="link-page top-link menu-bookmarks-link" href="#">Закладки: 0</a>
@@ -53,7 +53,7 @@
                 <li class="list-style user-menu-profile">
                   <a class="link-page user-menu-button" href="#">Равшан Джамшутович</a>
                   <svg class="user-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="18"><path fill="#32425C" d="M17.881 14.166c-2.144-.735-4.256-1.666-5.207-2.39-.657-.501-.77-1.618-.517-2.415 1.118-.903 1.864-2.477 1.864-4.278C14.021 2.276 12.221 0 10 0S5.979 2.276 5.979 5.083c0 1.801.746 3.374 1.863 4.277.253.798.141 1.915-.517 2.416-.95.724-3.063 1.654-5.207 2.39S0 18 0 18h20s.025-3.099-2.119-3.834z"/></svg>
-                  <svg class="logout-icon logout-catalog-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="17" viewBox="0 0 20 17"><image width="20" height="17" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAQAAAB3TUQ1AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfiBAEOHxbpdEdJAAAA7UlEQVQoz43RrUsEcRDG8c+tYhDEdMkTg0aRsxg2nXCoQS6aLlgsZrvgPyAYLFaL9bAIhy/BFUyLWAXDmS6pYBB8Ce7u7Xni7TNl5pnvDD/mV7oes2/TuFSLYhzY8Q5hYgd2beewVA2tfjewgS0jSknESWfVqYk8WEbbp0Eta5vsgf9pyWVULgJSdR5N/QYffWUxk7nzrqLK8I0w6yaaKwJScVwM7GiOFsAe1MJOHlzIvfjOdJLdWwufyIMvuTz9gNhK2B1+x1u1H4xAF/U/By7UPadF4ARHPrJTV5POmXWvvanAnkNvA9taGv3uN4jdN1Pw1OFMAAAAAElFTkSuQmCC"/></svg>
+                  <svg class="logout-catalog-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="17" viewBox="0 0 20 17"><image width="20" height="17" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAQAAAB3TUQ1AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfiBAEOHxbpdEdJAAAA7UlEQVQoz43RrUsEcRDG8c+tYhDEdMkTg0aRsxg2nXCoQS6aLlgsZrvgPyAYLFaL9bAIhy/BFUyLWAXDmS6pYBB8Ce7u7Xni7TNl5pnvDD/mV7oes2/TuFSLYhzY8Q5hYgd2beewVA2tfjewgS0jSknESWfVqYk8WEbbp0Eta5vsgf9pyWVULgJSdR5N/QYffWUxk7nzrqLK8I0w6yaaKwJScVwM7GiOFsAe1MJOHlzIvfjOdJLdWwufyIMvuTz9gNhK2B1+x1u1H4xAF/U/By7UPadF4ARHPrJTV5POmXWvvanAnkNvA9taGv3uN4jdN1Pw1OFMAAAAAElFTkSuQmCC"/></svg>
                 </li>
                 <li class="list-style user-submenu">
                   <ul class="user-submenu-list">
@@ -164,7 +164,7 @@
               <legend class="manufacturers">Производители:</legend>
               <div class="checkbox">
                 <input class="checkbox-control" id="check-bosh" type="checkbox" name="makers-bosh" value="Bosh">
-                <label class="checkbox-label" for="check-bosh">Bosh</label>
+                <label class="checkbox-label checkbox-label-checked" for="check-bosh">Bosh</label>
               </div>
               <div class="checkbox">
                 <input class="checkbox-control" id="check-interskol" type="checkbox" name="makers-interskol" value="Interskol">
@@ -172,7 +172,7 @@
               </div>
               <div class="checkbox">
                 <input class="checkbox-control" id="check-makita" type="checkbox" name="makers-makita" value="Makita">
-                <label class="checkbox-label" for="check-makita">Makita</label>
+                <label class="checkbox-label checkbox-label-checked" for="check-makita">Makita</label>
               </div>
               <div class="checkbox">
                 <input class="checkbox-control" id="check-dewalt" type="checkbox" name="makers-dewalt" value="Dewalt">
@@ -367,6 +367,7 @@
         <p class="perforators-about-description">Перфоратор универсальный строительный инструмент. Предназначен для сверления и&nbsp;долбления отверстий в&nbsp;кирпиче, бетоне и&nbsp;камне. Существуют электромеханические и&nbsp;пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и&nbsp;отбойного молотка. В&nbsp;ассортиментном ряду есть выбор трехрежимников в&nbsp;одном устройстве будут совмещены отбойный молоток и&nbsp;ударная дрель.</p>
       </div>
     </div>
+    </div>
   </main>
 
   <footer class="footer">
@@ -426,9 +427,15 @@
       <div class="container footer-bottom-social">
         <h3 class="copyright-company">&copy;&nbsp;2010-2017 Компания &laquo;Техномарт&raquo; Все права защищены</h3>
         <div class="social">
-          <a class="link-page social-button social-button-vk" href="http://vk.com ">Вконтакте</a>
-          <a class="link-page social-button social-button-fb" href="http://facebook.com">Facebook</a>
-          <a class="link-page social-button social-button-inst" href="http://instagram.com">Instagram</a>
+          <div class="social-vk">
+            <a class="link-page social-button social-button-vk" href="http://vk.com "></a>
+          </div>
+          <div class="social-fb">
+            <a class="link-page social-button social-button-fb" href="http://facebook.com"></a>
+          </div>
+          <div class="social-inst">
+            <a class="link-page social-button social-button-inst" href="http://instagram.com"></a>
+          </div>
         </div>
         <p class="feedback">Обратная связь:
           <a class="link-page feedback-mail" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
