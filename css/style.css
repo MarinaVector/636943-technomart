@@ -1595,7 +1595,18 @@
 .breadcrumbs {
   display: flex;
 
-  justify-content: flex-start;
+  justify-content: space-between;
+  position: relative;
+  width: 322px;
+}
+
+.breadcrumbs-item:before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 20px;
+  background: url(../img/icon-right-small.png) no-repeat;
+  top: 3px;
 }
 
 .filter {
